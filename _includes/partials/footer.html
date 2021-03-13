@@ -1,0 +1,15 @@
+
+  </main>
+  <footer class="container"></footer>
+
+  {%- include partials/modal_link.html -%}
+
+  {%- if site.conference.live.streaming -%}
+    {%- include partials/modal_live.html -%}
+  {%- endif -%}
+
+  <!-- Append build time to avoid caching of live program embedded in JavaScript file -->
+  <script src="/assets/js/main.js?t={{ site.time | date: "%s" }}"></script>
+
+</body>
+</html>

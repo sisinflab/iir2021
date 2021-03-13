@@ -1,21 +1,30 @@
 main:
-  - name: "Services"
-    url: "/services/"
-    weight: 2
-  - name: "Team"
-    url: "/team/"
-    weight: 3
   - name: "About"
     url: "/about/"
+    weight: 2
+  - name: "Call for Papers"
+    url: "/cfp/"
+    weight: 3
+  - name: "Chairs and Committees"
+    url: "/committees/"
     weight: 4
-  - name: "Contact"
-    url: "/contact/"
+  - name: "Program"
+    url: "/program/"
     weight: 5
+  - name: "Proceedings"
+    url: "/proceedings/"
+    weight: 6
+  - name: "Attendance"
+    url: "/attendance/"
+    weight: 7
+  #- name: "Contact"
+  #  url: "/contact/"
+  #  weight: 6
 
 footer:
   - name: "Home"
     url: "/"
     weight: 1
-  - name: "Contact"
-    url: "/contact/"
-    weight: 2
+  #- name: "Contact"
+  #  url: "/contact/"
+  #  weight: 2

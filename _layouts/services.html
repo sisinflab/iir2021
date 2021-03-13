@@ -20,6 +20,25 @@ bodyClass: page-services-list
 
 <div class="container pt-6 pb-6">
   <div class="row">
+    {% assign weighted_editions = site.editions | sort: "weight" %}
+    {% for edition in weighted_editions %}
+    <div class="col-12 col-md-6 mb-3">
+      <div class="service service-summary">
+        <div class="service-content">
+          <h2 class="service-title">
+            <a href="{{ edition.url | relative_url }}">{{ edition.title }} – {{ edition.city }}</a>
+          </h2>
+          <p>{{ edition.content | markdownify }}</p>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>
+
+<!--
+<div class="container pt-6 pb-6">
+  <div class="row">
     {% assign weighted_services = site.services | sort: "weight" %}
     {% for service in weighted_services %}
     <div class="col-12 col-md-6 mb-3">
@@ -35,3 +54,4 @@ bodyClass: page-services-list
     {% endfor %}
   </div>
 </div>
+-->

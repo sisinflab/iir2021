@@ -1,12 +1,12 @@
 ---
-title: Jekyll Serif Theme
+title: IIR 2021
 layout: home
-description: Jekyll Serif contains content types for a typical business website. The theme is fully responsive, blazing fast and artfully illustrated.
+description: 11th Italian Information Retrieval Workshop
 intro_image: "images/illustrations/pointing.svg"
 intro_image_absolute: true
 intro_image_hide_on_mobile: true
 ---
 
-# Serif - A Jekyll Business Theme.
+# 11th Italian Information Retrieval Workshop
 
-Serif contains content types for a typical business website. The theme is fully responsive, blazing fast and artfully illustrated.
+## September 15-17, 2021, Bari, Italy

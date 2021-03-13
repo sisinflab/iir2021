@@ -1,11 +1,12 @@
 baseurl: '/'
 permalink: pretty
-title: 'Jekyll Serif'
+title: '11th Italian Information Retrieval Workshop'
 
 google_analytics_id: ""
 
 homepage:
-  show_call_box: true
+  show_call_box: false
+  show_social_buttons: true
 
 logo:
   mobile: "images/logo/logo-mobile.svg"
@@ -13,10 +14,10 @@ logo:
   desktop_height: "36px"
 
 footer:
-  copyright_text: 'Free Jekyll theme by <a class="zerostatic" href="https://www.zerostatic.io">www.zerostatic.io</a>'
+  copyright_text: 'SisInfLab ® 2021'
 
 seo:
-  meta_og_title: "Jekyll Serif Theme"
+  meta_og_title: "11th Italian Information Retrieval Workshop"
   meta_og_type: "website"
   meta_og_url: "https://jekyll-serif.netlify.app"
   meta_og_image: "https://raw.githubusercontent.com/zerostaticthemes/jekyll-serif-theme/master/screenshots/tn.png"
@@ -28,7 +29,11 @@ seo:
 collections:
   services:
     output: true
+  editions:
+    output: true
   team:
+    output: true
+  talks:
     output: true
 
 sass:
@@ -50,3 +55,23 @@ exclude:
   - LICENSE.md
   - LICENSE
   - README.md
+
+conference:
+  lang: en
+  show_errors: True
+
+  speakers:
+    show_firstname: true
+
+  location:
+    url: '/location'
+    map:
+      enable: true
+      default_zoom: 17
+      home_coord: 47.37808, 8.53935
+      map_provider: "OpenStreetMap.Mapnik"
+
+  program:
+    url: '/program'
+    time_steps: 15
+    show_alltimes: true
