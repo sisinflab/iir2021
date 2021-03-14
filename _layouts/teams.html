@@ -41,29 +41,11 @@ bodyClass: page-team-list
         </div>
         {% endfor %}
     </div>
-    <div class="row pt-6 pb-6">
-        {% assign teams = site.team | where: "promoted", empty | sort: "weight" %}
-        {% for team in teams %}
-        <div class="col-12 col-md-4 mb-3">
-            <div class="team team-summary">
-                {% if team.image %}
-                <div class="team-image">
-                    <img alt="{{ team.title }}" class="img-fluid mb-2" src="{{ team.image | relative_url }}" />
-                </div>
-                {% endif %}
-                <div class="team-meta">
-                    <h2 class="team-name"><a href="{{ team.personalpage }}">{{ team.title }}</a></h2>
-                    <p class="team-description">{{ team.jobtitle }}</p>
+</div>
 
-                </div>
-            </div>
-        </div>
-        {% endfor %}
-    </div>
-
-
+<div class="container pt-6 pb-6">
     <h1>Program Committee</h1>
-    <div class="row pt-6 pb-6">
+    <div class="row pt-4 pb-6">
     {% for item in site.data.program_committee %}
     <div class="col-12 col-md-4 mb-3">
     <div class="team team-summary">
@@ -75,5 +57,4 @@ bodyClass: page-team-list
     </div>
     {% endfor %}
     </div>
-
 </div>

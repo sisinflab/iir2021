@@ -8,6 +8,7 @@ bodyClass: page-services-list
     <div class="row justify-content-start">
       <div class="col-12 col-md-7 col-lg-6 order-2 order-md-1">
         {{ content }}
+        <a href="#steering-committee" class="button">IIR Steering Committee</a>
       </div>
       {% if page.intro_image %}
       <div class="col-12 col-md-5 col-lg-6 order-1 order-md-2 position-relative">
@@ -21,13 +22,13 @@ bodyClass: page-services-list
 
 <div class="container pt-6 pb-6">
   <h1>Previous Editions</h1>
-  <div class="row">
+  <div class="row pt-4">
     {% for item in site.data.past_editions %}
     <div class="col-12 col-md-6 mb-3">
       <div class="service service-summary">
         <div class="service-content">
           <h2 class="service-title">
-            <a href="{{ item.url }}">IIR {{ item.year }}</a>
+            <a target="_blank" href="{{ item.url }}">IIR {{ item.year }}</a>
           </h2>
           <p><span class="edition-meta">General Chair</span> {{ item.general_chair }}<br>
             <span class="edition-meta">Program Chairs</span> {{ item.program_chairs }}</p>
@@ -38,22 +39,19 @@ bodyClass: page-services-list
   </div>
 </div>
 
-<!--
-<div class="container pt-6 pb-6">
-  <div class="row">
-    {% assign weighted_services = site.services | sort: "weight" %}
-    {% for service in weighted_services %}
-    <div class="col-12 col-md-6 mb-3">
-      <div class="service service-summary">
-        <div class="service-content">
-          <h2 class="service-title">
-            <a href="{{ service.url | relative_url }}">{{ service.title }}</a>
-          </h2>
-          <p>{{ service.content | markdownify | strip_html | truncate: 100 }}</p>
-        </div>
-      </div>
-    </div>
-    {% endfor %}
+<div id="steering-committee" class="container pt-6 pb-6">
+<h1>IIR Steering Committee</h1>
+<div class="row pt-4 pb-6">
+{% for item in site.data.steering_committee %}
+<div class="col-12 col-md-4 mb-3">
+<div class="team team-summary">
+  <div class="team-meta">
+      <h2 class="team-name">{{ item.name }}</h2>
+      <p class="team-description" style="line-height:1.4em">{{ item.institution }}<br>
+     {{ item.role }}</p>
   </div>
 </div>
--->
+</div>
+{% endfor %}
+</div>
+</div>
