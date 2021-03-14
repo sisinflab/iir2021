@@ -4,7 +4,7 @@ layout: default
 bodyClass: page-home
 ---
 
-<div class="intro" style="padding-bottom:40px">
+<div class="intro pb-4">
   <div class="container">
     <div class="row justify-content-start">
       <div class="col-12 col-md-7 col-lg-5 order-2 order-md-1">
@@ -26,20 +26,20 @@ bodyClass: page-home
   </div>
 </div>
 
+
+
 <div class="strip">
   <div class="container pt-6 pb-6 pb-md-10">
     <div class="row justify-content-start">
       <div class="col-12 col-md-12 mb-1"  style="padding-bottom:50px">
         <div class="service service-summary">
           <div class="service-content">
-            <p style="font-size:14pt;line-height:1.7em">
-              {{ content }}
+            <p>
+              <font size="4em">{{ content }}</font>
             </p>
           </div>
         </div>
       </div>
-
-
 
       {% assign mainmenu = site.data.menus.main | sort: 'weight'  %}
 
