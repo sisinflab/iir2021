@@ -64,50 +64,16 @@ bodyClass: page-team-list
 
     <h1>Program Committee</h1>
     <div class="row pt-6 pb-6">
-      <ul>
-      <li>Maristella Agosti, Università di Padova</li>
-      <li>Giambattista Amati, Fondazione Ugo Bordoni</li>
-      <li>Aris Anagnostopoulos, Università di Roma “La Sapienza”</li>
-      <li>Liliana Ardissono, Università di Torino</li>
-      <li>Maurizio Atzori, Università di Cagliari</li>
-      <li>Francesco Barile, Libera Università di Bolzano</li>
-      <li>Pierpaolo Basile, Università di Bari</li>
-      <li>Roberto Basili, Università di Roma “Tor Vergata”</li>
-      <li>Luca Becchetti, Università di Roma “La Sapienza”</li>
-      <li>Ludovico Boratto, Eurecat</li>
-      <li>Ilaria Bordino, UniCredit R&D</li>
-      <li>Claudio Carpineto, Fondazione Ugo Bordoni</li>
-      <li>Matteo Catena, Istituto di Scienza e Tecnologie dell’Informazione (CNR)</li>
-      <li>Fabio Crestani, Università della Svizzera Italiana</li>
-      <li>Danilo Croce, Università di Roma “Tor Vergata”</li>
-      <li>Tommaso Di Noia, Politecnico di Bari</li>
-      <li>Mehdi Elahi, Libera Università di Bolzano</li>
-      <li>Andrea Esuli, Istituto di Scienza e Tecnologie dell’Informazione (CNR)</li>
-      <li>Nicola Ferro, Università di Padova</li>
-      <li>Fabio Gasparetti, Università di Roma Tre</li>
-      <li>Claudio Lucchese, Università di Venezia “Ca’ Foscari”</li>
-      <li>Diego Marcheggiani, Amazon</li>
-      <li>Ida Mele, Istituto di Scienza e Tecnologie dell’Informazione (CNR)</li>
-      <li>Alejandro Moreo Fernández, Istituto di Scienza e Tecnologie dell’Informazione</li>
-      <li>Alessandro Moschitti, Amazon</li>
-      <li>Cristina Ioana Muntean, Istituto di Scienza e Tecnologie dell’Informazione (CNR)</li>
-      <li>Cataldo Musto, Università degli Studi di Bari</li>
-      <li>Franco Maria Nardini, Istituto di Scienza e Tecnologie dell’Informazione (CNR)</li>
-      <li>Fedelucio Narducci, Università di Bari</li>
-      <li>Umberto Panniello, Politecnico di Bari</li>
-      <li>Marco Polignano, Università di Bari</li>
-      <li>Massimo Quadrana, Pandora</li>
-      <li>Francesco Ricci, Libera Università di Bolzano</li>
-      <li>Giuseppe Sansonetti, Università di Roma Tre</li>
-      <li>Giovanni Semeraro, Università di Bari</li>
-      <li>Gianmaria Silvello, Università di Padova</li>
-      <li>Marko Tkalcic, Libera Università di Bolzano </li>
-      <li>Gabriele Tolomei, Università di Padova</li>
-      <li>Paolo Tomeo, Politecnico di Bari</li>
-      <li>Nicola Tonellotto, Istituto di Scienza e Tecnologie dell’Informazione (CNR)</li>
-      <li>Salvatore Trani, Istituto di Scienza e Tecnologie dell’Informazione (CNR)</li>
-      <li>Rossano Venturini, Università di Pisa</li>
-      </ul>
+    {% for item in site.data.program_committee %}
+    <div class="col-12 col-md-4 mb-3">
+    <div class="team team-summary">
+      <div class="team-meta">
+          <h2 class="team-name">{{ item.name }}</h2>
+          <p class="team-description">{{ item.institution }}</p>
+      </div>
+    </div>
+    </div>
+    {% endfor %}
     </div>
 
 </div>

@@ -1,5 +1,8 @@
 <div class="social">
   {% for item in site.data.social %}
-    <a href="{{ item.link }}" target="blank"><img src="{{ item.image | relative_url }}" title="{{ item.name }}" alt="{{ item.name }}" /></a>
+    <a href="{{ item.link }}" target="blank"><img src="{{ item.image | relative_url }}" title="{{ item.name }}" alt="{{ item.name }}"
+      {% if include.invert_color %}
+       style="filter: invert(85%) sepia(19%) saturate(1053%) hue-rotate(201deg) brightness(87%) contrast(83%);"
+       {% endif %}/></a>
   {% endfor %}
 </div>

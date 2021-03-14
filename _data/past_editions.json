@@ -1,0 +1,56 @@
+[
+  {
+    "year": "2018",
+    "location":"Rome, IT",
+    "general_chair": "Aris Anagnostopoulos",
+    "program_chairs": "Luca Becchetti, Nicola Tonellotto, Marko Tkalcic"
+  },
+  {
+    "year": "2017",
+    "location":"Lugano, CH",
+    "general_chair": "Fabio Crestani",
+    "program_chairs": "Tommaso Di Noia, Raffaele Perego"
+  },
+  {
+    "year": "2016",
+    "location":"Venice, IT",
+    "general_chair": "Salvatore Orlando",
+    "program_chairs": "Giorgio Maria Di Nunzio, Franco Maria Nardini"
+  },
+  {
+    "year": "2015",
+    "location":"Cagliari, IT",
+    "general_chair": "Domenico Dato, Raffaele Perego",
+    "program_chairs": "Paolo Boldi, Fabrizio Sebastiani"
+  },
+  {
+    "year": "2014",
+    "location":"Roma, IT",
+    "general_chair": "Roberto Basili",
+    "program_chairs": "Fabio Crestani, Marco Pennacchiotti"
+  },
+  {
+    "year": "2013",
+    "location":"Pisa, IT",
+    "general_chair": "Fabrizio Sebastiani",
+    "program_chairs": "Roberto Basili, Giovanni Semeraro"
+  },
+  {
+    "year": "2012",
+    "location":"Bari, IT",
+    "general_chair": "Giovanni Semeraro",
+    "program_chairs": "Gianni Amati, Claudio Carpineto"
+  },
+  {
+    "year": "2011",
+    "location":"Milano, IT",
+    "general_chair": "Gabriella Pasi",
+    "program_chairs": "Massimo Melucci, Stefano Mizzaro"
+  },
+  {
+    "year": "2010",
+    "location":"Padova, IT",
+    "general_chair": "Massimo Melucci",
+    "program_chairs": "Stefano Mizzaro, Gabriella Pasi"
+  }
+]
