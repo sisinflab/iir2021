@@ -3,54 +3,63 @@
     "year": "2018",
     "location":"Rome, IT",
     "general_chair": "Aris Anagnostopoulos",
-    "program_chairs": "Luca Becchetti, Nicola Tonellotto, Marko Tkalcic"
+    "program_chairs": "Luca Becchetti, Nicola Tonellotto, Marko Tkalcic",
+    "url": "http://www.diag.uniroma1.it/~iir2018"
   },
   {
     "year": "2017",
     "location":"Lugano, CH",
     "general_chair": "Fabio Crestani",
-    "program_chairs": "Tommaso Di Noia, Raffaele Perego"
+    "program_chairs": "Tommaso Di Noia, Raffaele Perego",
+    "url": "http://iir2017.usi.ch/"
   },
   {
     "year": "2016",
     "location":"Venice, IT",
     "general_chair": "Salvatore Orlando",
-    "program_chairs": "Giorgio Maria Di Nunzio, Franco Maria Nardini"
+    "program_chairs": "Giorgio Maria Di Nunzio, Franco Maria Nardini",
+    "url": "http://www.dais.unive.it/IIR2016/"
   },
   {
     "year": "2015",
     "location":"Cagliari, IT",
     "general_chair": "Domenico Dato, Raffaele Perego",
-    "program_chairs": "Paolo Boldi, Fabrizio Sebastiani"
+    "program_chairs": "Paolo Boldi, Fabrizio Sebastiani",
+    "url": "http://iir2015.isti.cnr.it/"
   },
   {
     "year": "2014",
     "location":"Roma, IT",
     "general_chair": "Roberto Basili",
-    "program_chairs": "Fabio Crestani, Marco Pennacchiotti"
+    "program_chairs": "Fabio Crestani, Marco Pennacchiotti",
+    "url": "http://iir2014.uniroma2.it/"
   },
   {
     "year": "2013",
     "location":"Pisa, IT",
     "general_chair": "Fabrizio Sebastiani",
-    "program_chairs": "Roberto Basili, Giovanni Semeraro"
+    "program_chairs": "Roberto Basili, Giovanni Semeraro",
+    "url": "http://iir2013.isti.cnr.it/"
   },
   {
     "year": "2012",
     "location":"Bari, IT",
     "general_chair": "Giovanni Semeraro",
-    "program_chairs": "Gianni Amati, Claudio Carpineto"
+    "program_chairs": "Gianni Amati, Claudio Carpineto",
+    "url": "http://www.di.uniba.it/~swap/iir2012"
   },
   {
     "year": "2011",
     "location":"Milano, IT",
     "general_chair": "Gabriella Pasi",
-    "program_chairs": "Massimo Melucci, Stefano Mizzaro"
+    "program_chairs": "Massimo Melucci, Stefano Mizzaro",
+    "url": "http://www.ir.disco.unimib.it/iir2011/"
   },
   {
     "year": "2010",
     "location":"Padova, IT",
     "general_chair": "Massimo Melucci",
-    "program_chairs": "Stefano Mizzaro, Gabriella Pasi"
+    "program_chairs": "Stefano Mizzaro, Gabriella Pasi",
+    "url": "http://ims.dei.unipd.it/websites/iir10/"
   }
 ]
