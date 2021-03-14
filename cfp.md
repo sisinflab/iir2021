@@ -9,7 +9,7 @@ bodyClass: page-about
 ## Scope
 The purpose of the Italian Information Retrieval Workshop (IIR) is to provide a meeting forum for stimulating and disseminating research in Information Retrieval, where Italian researchers (especially young ones) and researchers affiliated with Italian institutions can network and discuss their research results in an informal way.
 
-IIR 2021 is the 11th edition of the Italian Information Retrieval Workshop. It will take place on September 15-17, 2021 at the [Department of Electrical & Information Engineering](http://deipoliba.azurewebsites.net/en/) of the [Polytechnic University of Bari](http://www.en.poliba.it/), Italy.
+IIR 2021 is the 11th edition of the Italian Information Retrieval Workshop. It will take place on September 15-17, 2021 at the [Department of Electrical and Information Engineering](http://deipoliba.azurewebsites.net/en/) of the [Polytechnic University of Bari](http://www.en.poliba.it/), Italy.
 
 This edition of the Italian Information Retrieval Workshop will include a number of invited lectures from senior researchers.   
 
@@ -70,10 +70,7 @@ IIR 2021 offers an opportunity to present and discuss both theoretical and empir
 
 
 ## Submissions
-Submissions of full research papers must be in English, in PDF format in the CEUR-WS single-column conference format available at:
-
-http://ceur-ws.org/Vol-XXX/CEURART.zip
-
+Submissions of full research papers must be in English, in PDF format in the CEUR-WS single-column conference format available at [http://ceur-ws.org/Vol-XXX/CEURART.zip](http://ceur-ws.org/Vol-XXX/CEURART.zip).
 
 Submission will be peer reviewed and accepted papers will appear in the CEUR workshop series. Papers may range from theoretical works to system descriptions.
 We particularly encourage PhD students or Early-Stage Researchers to submit their research. We also welcome contributions from the industry and papers describing ongoing funded projects which may result useful to the IIR community.   
@@ -84,15 +81,13 @@ Authors are invited to submit one of the following types of contributions:
 * Short original papers (5 pages, plus additional pages for references if needed)
 * Extended abstracts containing descriptions of ongoing projects or presenting already published results (up to 4 pages)
 
-Submission will be through Easychair at
-
-https://easychair.org/conferences/?conf=iir2021
+Submission will be through Easychair at [https://easychair.org/conferences/?conf=iir2021](https://easychair.org/conferences/?conf=iir2021).
 
 ## Important Dates
-* Submission website opens: May 10, 2021
-* Submission deadline: June 18, 2021
-* Notification of acceptance: August 4, 2021
-* Camera ready deadline: August 13, 2021
-* IIR 2021: September 15-17, 2021
+* **Submission website opens**: May 10, 2021
+* **Submission deadline**: June 18, 2021
+* **Notification of acceptance**: August 4, 2021
+* **Camera ready deadline**: August 13, 2021
+* **IIR 2021**: September 15-17, 2021
 
 Deadlines refer to 23:59 (11:59pm) in the AoE (Anywhere on Earth) time zone.
