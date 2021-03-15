@@ -6,8 +6,8 @@
           {% if site.data.social %}
             {% include social.html %}
           {% endif %}
-          {% if site.footer.copyright_text %}
-          <div class="copyright">{{ site.footer.copyright_text }}</div>
+          {% if site.footer.credits %}
+          <div class="copyright" style="text-align:right">{{ site.footer.credits }} {{ site.footer.copyright_text }}</div>
           {% endif %}
         </div>
       </div>

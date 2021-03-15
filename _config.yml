@@ -14,7 +14,8 @@ logo:
   desktop_height: "36px"
 
 footer:
-  copyright_text: 'SisInfLab ® 2021'
+  credits: 'The illustration on this website have been created for <a href="http://www.around.bari.it">Around Bari</a> by <a href="https://moh.design">MOH Design Studio</a>.'
+  copyright_text: '©2021 SisInfLab.'
 
 seo:
   meta_og_title: "11th Italian Information Retrieval Workshop"

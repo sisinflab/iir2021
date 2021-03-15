@@ -2,8 +2,8 @@
 title: IIR 2021
 layout: home
 description: 11th Italian Information Retrieval Workshop
-date_location: September 15-17, 2021, Bari, Italy
-intro_image: "images/bari.jpg"
+date_location: September 15-17, 2021<br>Bari, Italy
+intro_image: "images/bari.png"
 intro_image_absolute: true
 intro_image_hide_on_mobile: true
 ---
