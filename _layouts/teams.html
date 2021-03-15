@@ -19,8 +19,9 @@ bodyClass: page-team-list
 </div>
 
 <div class="container pt-6 pb-6">
+  <h1>General Chairs</h1>
     <div class="row">
-        {% assign promoted_teams = site.team | where: "promoted", true | sort: "weight" %}
+        {% assign promoted_teams = site.team | where: "jobtitle", "General Chair" | sort: "weight" %}
         {% for team in promoted_teams %}
         <div class="col-12 col-md-6 mb-2">
             <div class="team team-summary team-summary-large">
@@ -44,17 +45,107 @@ bodyClass: page-team-list
 </div>
 
 <div class="container pt-6 pb-6">
-    <h1>Program Committee</h1>
-    <div class="row pt-4 pb-6">
-    {% for item in site.data.program_committee %}
-    <div class="col-12 col-md-4 mb-3">
-    <div class="team team-summary">
-      <div class="team-meta">
-          <h2 class="team-name">{{ item.name }}</h2>
-          <p class="team-description">{{ item.institution }}</p>
-      </div>
+  <h1>Program Chairs</h1>
+    <div class="row">
+        {% assign promoted_teams = site.team | where: "jobtitle", "Program Chair" | sort: "weight" %}
+        {% for team in promoted_teams %}
+        <div class="col-12 col-md-6 mb-2">
+            <div class="team team-summary team-summary-large">
+                {% if team.image %}
+                <div class="team-image">
+                    <img alt="{{ team.title }}" class="img-fluid mb-2" src="{{ team.image | relative_url }}" />
+                </div>
+                {% endif %}
+                <div class="team-meta">
+                    <h2 class="team-name"><a target="_blank" href="{{ team.personalpage }}">{{ team.title }}</a></h2>
+                    <p class="team-description">{{ team.jobtitle }}</p>
+                    {% if team.institution %}
+                    <a target="_blank" href="{{ team.institutionurl }}">{{ team.institution }}</a>
+                    {% endif %}
+                </div>
+                <div class="team-content">{{ team.content | truncate: 120 }}</div>
+            </div>
+        </div>
+        {% endfor %}
     </div>
+</div>
+
+
+<div class="container pt-6 pb-6">
+  <h1>Tutorial Chairs</h1>
+    <div class="row">
+        {% assign promoted_teams = site.team | where: "jobtitle", "Tutorial Chair" | sort: "weight" %}
+        {% for team in promoted_teams %}
+        <div class="col-12 col-md-6 mb-2">
+            <div class="team team-summary team-summary-large">
+                {% if team.image %}
+                <div class="team-image">
+                    <img alt="{{ team.title }}" class="img-fluid mb-2" src="{{ team.image | relative_url }}" />
+                </div>
+                {% endif %}
+                <div class="team-meta">
+                    <h2 class="team-name"><a target="_blank" href="{{ team.personalpage }}">{{ team.title }}</a></h2>
+                    <p class="team-description">{{ team.jobtitle }}</p>
+                    {% if team.institution %}
+                    <a target="_blank" href="{{ team.institutionurl }}">{{ team.institution }}</a>
+                    {% endif %}
+                </div>
+                <div class="team-content">{{ team.content | truncate: 120 }}</div>
+            </div>
+        </div>
+        {% endfor %}
     </div>
-    {% endfor %}
+</div>
+
+
+<div class="container pt-6 pb-6">
+  <h1>Publicity Chair</h1>
+    <div class="row">
+        {% assign promoted_teams = site.team | where: "jobtitle", "Publicity Chair" | sort: "weight" %}
+        {% for team in promoted_teams %}
+        <div class="col-12 col-md-6 mb-2">
+            <div class="team team-summary team-summary-large">
+                {% if team.image %}
+                <div class="team-image">
+                    <img alt="{{ team.title }}" class="img-fluid mb-2" src="{{ team.image | relative_url }}" />
+                </div>
+                {% endif %}
+                <div class="team-meta">
+                    <h2 class="team-name"><a target="_blank" href="{{ team.personalpage }}">{{ team.title }}</a></h2>
+                    <p class="team-description">{{ team.jobtitle }}</p>
+                    {% if team.institution %}
+                    <a target="_blank" href="{{ team.institutionurl }}">{{ team.institution }}</a>
+                    {% endif %}
+                </div>
+                <div class="team-content">{{ team.content | truncate: 120 }}</div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+
+<div class="container pt-6 pb-6">
+  <h1>Local Organization Committee</h1>
+    <div class="row">
+        {% assign promoted_teams = site.team | where: "lo", true | sort: "weight" %}
+        {% for team in promoted_teams %}
+        <div class="col-12 col-md-6 mb-2">
+            <div class="team team-summary team-summary-large">
+                {% if team.image %}
+                <div class="team-image">
+                    <img alt="{{ team.title }}" class="img-fluid mb-2" src="{{ team.image | relative_url }}" />
+                </div>
+                {% endif %}
+                <div class="team-meta">
+                    <h2 class="team-name"><a target="_blank" href="{{ team.personalpage }}">{{ team.title }}</a></h2>
+                    <p class="team-description">{{ team.jobtitle }}</p>
+                    {% if team.institution %}
+                    <a target="_blank" href="{{ team.institutionurl }}">{{ team.institution }}</a>
+                    {% endif %}
+                </div>
+                <div class="team-content">{{ team.content | truncate: 120 }}</div>
+            </div>
+        </div>
+        {% endfor %}
     </div>
 </div>
