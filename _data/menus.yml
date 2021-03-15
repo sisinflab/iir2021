@@ -8,15 +8,18 @@ main:
   - name: "Organization"
     url: "/organization/"
     weight: 4
+  - name: "Program Committee"
+    url: "/committee/"
+    weight: 5
   - name: "Program"
     url: "/program/"
-    weight: 5
+    weight: 6
   - name: "Proceedings"
     url: "/proceedings/"
-    weight: 6
+    weight: 7
   - name: "Attendance"
     url: "/attendance/"
-    weight: 7
+    weight: 8
   #- name: "Contact"
   #  url: "/contact/"
   #  weight: 6
