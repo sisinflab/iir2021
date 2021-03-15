@@ -12,6 +12,6 @@ The purpose of the **Italian Information Retrieval Workshop** (**IIR**) is to pr
 
 IIR 2021 is the 11th edition of the Italian Information Retrieval Workshop. It will take place on September 15-17, 2021 at the [Department of Electrical and Information Engineering](http://deipoliba.azurewebsites.net/en/) of the [Polytechnic University of Bari](http://www.en.poliba.it/), Italy.
 
-This edition of the Italian Information Retrieval Workshop will include a number of invited lectures from senior researchers.
+This edition of the Italian Information Retrieval Workshop will include a number of invited lectures and tutorials from senior researchers.
 
 Participation to the IIR 2021 workshop will be free of charge. However, advance registration will be strictly required.
