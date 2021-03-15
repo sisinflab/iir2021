@@ -83,6 +83,8 @@ Authors are invited to submit one of the following types of contributions:
 
 Submission will be through Easychair at [https://easychair.org/conferences/?conf=iir2021](https://easychair.org/conferences/?conf=iir2021).
 
+**A Special Prize will be awarded to the Best Papers selected by the Steering Committee of IIR.**
+
 ## Important Dates
 * **Submission website opens**: May 10, 2021
 * **Submission deadline**: June 18, 2021
