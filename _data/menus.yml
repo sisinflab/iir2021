@@ -9,7 +9,7 @@ main:
     url: "/organization/"
     weight: 4
   - name: "Program Committee"
-    url: "/committee/"
+    url: "/program-committee/"
     weight: 5
   - name: "Program"
     url: "/program/"

@@ -1,9 +1,9 @@
 ---
-title: Organization
+title: Program Committee
 layout: teams
-permalink: /organization/
+permalink: /program-committee/
 intro_image_absolute: true
 intro_image_hide_on_mobile: false
 ---
 
-# Chairs and Committees
+# Program Committee
