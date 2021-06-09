@@ -1,170 +1,182 @@
 [
   {
-    "name": "Maristella Agosti",
-    "institution": "Università degli Studi di Padova"
-  },
-  {
-    "name": "Giambattista Amati",
-    "institution": "Fondazione Ugo Bordoni"
-  },
-  {
-    "name": "Aris Anagnostopoulos",
-    "institution": "Università degli Studi di Roma La Sapienza"
-  },
-  {
-    "name": "Liliana Ardissono",
-    "institution": "Università degli Studi di Torino"
-  },
-  {
-    "name": "Maurizio Atzori",
-    "institution": "Università degli Studi di Cagliari"
-  },
-  {
-    "name": "Francesco Barile",
-    "institution": "Libera Università di Bolzano"
-  },
-  {
-    "name": "Pierpaolo Basile",
-    "institution": "Università degli Studi di Bari"
-  },
-  {
-    "name": "Roberto Basili",
-    "institution": "Università di Roma Tor Vergata"
-  },
-  {
-    "name": "Luca Becchetti",
-    "institution": "Università degli Studi di Roma La Sapienza"
-  },
-  {
-    "name": "Ludovico Boratto",
-    "institution": "Eurecat"
-  },
-  {
-    "name": "Ilaria Bordino",
-    "institution": "UniCredit R&D"
-  },
-  {
-    "name": "Claudio Carpineto",
-    "institution": "Fondazione Ugo Bordoni"
-  },
-  {
-    "name": "Matteo Catena",
-    "institution": "Istituto di Scienza e Tecnologie dell’Informazione"
+    "name": "Vito Walter Anelli",
+    "institution": "Politecnico di Bari"
   },
   {
     "name": "Fabio Crestani",
-    "institution": "Università della Svizzera Italiana"
+    "institution": "University of Lugano (USI)"
   },
   {
-    "name": "Danilo Croce",
-    "institution": "Università degli Studi di Roma Tor Vergata"
+    "name": "Ida Mele",
+    "institution": "IASI-CNR"
+  },
+  {
+    "name": "Maristella Agosti",
+    "institution": "University of Padua"
+  },
+  {
+    "name": "Matteo Catena",
+    "institution": "SpazioDati"
+  },
+  {
+    "name": "Alejandro Moreo Fernández",
+    "institution": "Istituto di Scienza e Tecnologie dell’Informazione “A. Faedo”"
+  },
+  {
+    "name": "Rossano Venturini",
+    "institution": "Dipartimento di Informatica, Università di Pisa"
+  },
+  {
+    "name": "Guido Zuccon",
+    "institution": "The University of Queensland"
+  },
+  {
+    "name": "Nicola Ferro",
+    "institution": "University of Padova"
   },
   {
     "name": "Tommaso Di Noia",
     "institution": "Politecnico di Bari"
   },
   {
-    "name": "Mehdi Elahi",
-    "institution": "Libera Università di Bolzano"
-  },
-  {
-    "name": "Andrea Esuli",
-    "institution": "Istituto di Scienza e Tecnologie dell’Informazione"
-  },
-  {
-    "name": "Nicola Ferro",
-    "institution": "Università degli Studi di Padova"
-  },
-  {
-    "name": "Fabio Gasparetti",
-    "institution": "Università degli Studi Roma Tre"
-  },
-  {
-    "name": "Claudio Lucchese",
-    "institution": "Università Ca' Foscari Venezia"
-  },
-  {
-    "name": "Diego Marcheggiani",
-    "institution": "Amazon"
-  },
-  {
-    "name": "Ida Mele",
-    "institution": "Istituto di Scienza e Tecnologie dell’Informazione"
-  },
-  {
-    "name": "Alejandro Moreo Fernández",
-    "institution": "Istituto di Scienza e Tecnologie dell’Informazione"
-  },
-  {
-    "name": "Alessandro Moschitti",
-    "institution": "Amazon"
-  },
-  {
-    "name": "Cristina Ioana Muntean",
-    "institution": "Istituto di Scienza e Tecnologie dell’Informazione"
-  },
-  {
-    "name": "Cataldo Musto",
-    "institution": "Università degli Studi di Bari"
-  },
-  {
-    "name": "Franco Maria Nardini",
-    "institution": "Istituto di Scienza e Tecnologie dell’Informazione"
-  },
-  {
     "name": "Fedelucio Narducci",
-    "institution": "Università degli Studi di Bari"
+    "institution": "Politecnico di Bari"
+  },
+  {
+    "name": "Marco de Gemmis",
+    "institution": "University of Bari Aldo Moro, Dept. of Computer Science"
+  },
+  {
+    "name": "Nicola Tonellotto",
+    "institution": "University of Pisa"
+  },
+  {
+    "name": "Massimo Melucci",
+    "institution": "University of Padova"
+  },
+  {
+    "name": "Raffaele Perego",
+    "institution": "ISTI-CNR"
+  },
+  {
+    "name": "Salvatore Trani",
+    "institution": "ISTI-CNR"
+  },
+  {
+    "name": "Fabrizio Silvestri",
+    "institution": "Facebook"
+  },
+  {
+    "name": "Marko Tkalcic",
+    "institution": "University of Primorska"
+  },
+  {
+    "name": "Giorgio Maria Di Nunzio",
+    "institution": "University of Padua"
+  },
+  {
+    "name": "Paolo Boldi",
+    "institution": "University of Milan"
+  },
+  {
+    "name": "Liliana Ardissono",
+    "institution": "University of Torino"
+  },
+  {
+    "name": "Claudio Carpineto",
+    "institution": "Fondazione Ugo Bordoni"
+  },
+  {
+    "name": "Giovanni Semeraro",
+    "institution": "University of Bari"
+  },
+  {
+    "name": "Gianmaria Silvello",
+    "institution": "University of Padua"
+  },
+  {
+    "name": "Luca Becchetti",
+    "institution": "Sapienza University of Rome"
   },
   {
     "name": "Umberto Panniello",
     "institution": "Politecnico di Bari"
   },
   {
-    "name": "Marco Polignano",
-    "institution": "Università degli Studi di Bari"
+    "name": "Stefano Mizzaro",
+    "institution": "University of Udine"
+  },
+  {
+    "name": "Pasquale Lops",
+    "institution": "University of Bari"
+  },
+  {
+    "name": "Cataldo Musto",
+    "institution": "Dipartimento di Informatica - University of Bari"
   },
   {
     "name": "Massimo Quadrana",
     "institution": "Pandora"
   },
   {
-    "name": "Francesco Ricci",
-    "institution": "Libera Università di Bolzano"
+    "name": "Danilo Croce",
+    "institution": "Dept. of Enterprise Engineering - Univ. of Roma Tor Vergata"
   },
   {
-    "name": "Giuseppe Sansonetti",
-    "institution": "Università degli Studi Roma Tre"
+    "name": "Franco Maria Nardini",
+    "institution": "ISTI-CNR"
   },
   {
-    "name": "Giovanni Semeraro",
-    "institution": "Università degli Studi di Bari"
+    "name": "Fabio Gasparetti",
+    "institution": "Artificial Intelligence Laboratory - ROMA TRE University"
   },
   {
-    "name": "Gianmaria Silvello",
-    "institution": "Università degli Studi di Padova"
+    "name": "Maurizio Atzori",
+    "institution": "University of Cagliari"
   },
   {
-    "name": "Marko Tkalcic",
-    "institution": "Libera Università di Bolzano"
+    "name": "Ludovico Boratto",
+    "institution": "University of Cagliari"
   },
   {
-    "name": "Gabriele Tolomei",
-    "institution": "Università degli Studi di Padova"
+    "name": "Pierpaolo Basile",
+    "institution": "Dipartimento di Informatica - University of Bari"
   },
   {
-    "name": "Paolo Tomeo",
-    "institution": "Politecnico di Bari"
+    "name": "Diego Marcheggiani",
+    "institution": "Amazon"
   },
   {
-    "name": "Nicola Tonellotto",
-    "institution": "Istituto di Scienza e Tecnologie dell’Informazione"
+    "name": "Emanuele Rabosio",
+    "institution": "Human Technopole"
   },
   {
-    "name": "Salvatore Trani",
-    "institution": "Istituto di Scienza e Tecnologie dell’Informazione"
+    "name": "Andrea Esuli",
+    "institution": "Istituto di Scienza e Tecnologie dell'Informazione"
   },
   {
-    "name": "Rossano Venturini",
-    "institution": "Università di Pisa"
+    "name": "Aris Anagnostopoulos",
+    "institution": "Sapienza University of Rome"
+  },
+  {
+    "name": "Cristina Ioana Muntean",
+    "institution": "ISTI CNR"
+  },
+  {
+    "name": "Iacopo Vagliano",
+    "institution": "Amsterdam Univesitair Medische Centra"
+  },
+  {
+    "name": "Francesco Barile",
+    "institution": "Maastricht University"
+  },
+  {
+    "name": "Alessandro Bozzon",
+    "institution": "Delft University of Technology"
+  },
+  {
+    "name": "Giancarlo Ruffo",
+    "institution": "Universita' di Torino"
   }
 ]
