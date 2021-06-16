@@ -5,6 +5,7 @@ layout: page
 bodyClass: page-about
 ---
 
+## **DUE TO SEVERAL REQUESTS, THE SUBMISSION DEADLINE IS EXTENDED TO JULY THE 2ND, 2021**
 
 ## Scope
 The purpose of the Italian Information Retrieval Workshop (IIR) is to provide a meeting forum for stimulating and disseminating research in Information Retrieval, where Italian researchers (especially young ones) and researchers affiliated with Italian institutions can network and discuss their research results in an informal way.
@@ -87,7 +88,8 @@ Submission will be through Easychair at [https://easychair.org/conferences/?conf
 
 ## Important Dates
 * **Submission website opens**: May 10, 2021
-* **Submission deadline**: June 18, 2021
+* **Submission deadline**: <s>June 18, 2021</s>
+* **Submission deadline**: July 2, 2021
 * **Notification of acceptance**: August 4, 2021
 * **Camera ready deadline**: August 13, 2021
 * **IIR 2021**: September 13-15, 2021
