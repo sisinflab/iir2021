@@ -80,7 +80,7 @@ The conference language is English.
 Authors are invited to submit one of the following types of contributions:
 * Full original papers (10 pages, plus additional pages for references if needed)
 * Short original papers (5 pages, plus additional pages for references if needed)
-* Extended abstracts containing descriptions of ongoing projects or presenting already published results (up to 4 pages)
+* Extended abstracts containing descriptions of ongoing projects or presenting already published results (up to 4 pages, plus additional pages for references if needed)
 
 Submission will be through Easychair at [https://easychair.org/conferences/?conf=iir2021](https://easychair.org/conferences/?conf=iir2021).
 
