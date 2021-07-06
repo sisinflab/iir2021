@@ -1,182 +1,227 @@
 [
   {
-    "name": "Vito Walter Anelli",
+    "name": "Vito Walter",
+    "surname": "Anelli",
     "institution": "Politecnico di Bari"
   },
   {
-    "name": "Fabio Crestani",
-    "institution": "University of Lugano (USI)"
-  },
-  {
-    "name": "Ida Mele",
-    "institution": "IASI-CNR"
-  },
-  {
-    "name": "Maristella Agosti",
-    "institution": "University of Padua"
-  },
-  {
-    "name": "Matteo Catena",
-    "institution": "SpazioDati"
-  },
-  {
-    "name": "Alejandro Moreo Fernández",
-    "institution": "Istituto di Scienza e Tecnologie dell’Informazione “A. Faedo”"
-  },
-  {
-    "name": "Rossano Venturini",
-    "institution": "Dipartimento di Informatica, Università di Pisa"
-  },
-  {
-    "name": "Guido Zuccon",
-    "institution": "The University of Queensland"
-  },
-  {
-    "name": "Nicola Ferro",
-    "institution": "University of Padova"
-  },
-  {
-    "name": "Tommaso Di Noia",
-    "institution": "Politecnico di Bari"
-  },
-  {
-    "name": "Fedelucio Narducci",
-    "institution": "Politecnico di Bari"
-  },
-  {
-    "name": "Marco de Gemmis",
-    "institution": "University of Bari Aldo Moro, Dept. of Computer Science"
-  },
-  {
-    "name": "Nicola Tonellotto",
-    "institution": "University of Pisa"
-  },
-  {
-    "name": "Massimo Melucci",
-    "institution": "University of Padova"
-  },
-  {
-    "name": "Raffaele Perego",
-    "institution": "ISTI-CNR"
-  },
-  {
-    "name": "Salvatore Trani",
-    "institution": "ISTI-CNR"
-  },
-  {
-    "name": "Fabrizio Silvestri",
-    "institution": "Facebook"
-  },
-  {
-    "name": "Marko Tkalcic",
-    "institution": "University of Primorska"
-  },
-  {
-    "name": "Giorgio Maria Di Nunzio",
-    "institution": "University of Padua"
-  },
-  {
-    "name": "Paolo Boldi",
-    "institution": "University of Milan"
-  },
-  {
-    "name": "Liliana Ardissono",
-    "institution": "University of Torino"
-  },
-  {
-    "name": "Claudio Carpineto",
-    "institution": "Fondazione Ugo Bordoni"
-  },
-  {
-    "name": "Giovanni Semeraro",
-    "institution": "University of Bari"
-  },
-  {
-    "name": "Gianmaria Silvello",
-    "institution": "University of Padua"
-  },
-  {
-    "name": "Luca Becchetti",
-    "institution": "Sapienza University of Rome"
-  },
-  {
-    "name": "Umberto Panniello",
-    "institution": "Politecnico di Bari"
-  },
-  {
-    "name": "Stefano Mizzaro",
-    "institution": "University of Udine"
-  },
-  {
-    "name": "Pasquale Lops",
-    "institution": "University of Bari"
-  },
-  {
-    "name": "Cataldo Musto",
-    "institution": "Dipartimento di Informatica - University of Bari"
-  },
-  {
-    "name": "Massimo Quadrana",
-    "institution": "Pandora"
-  },
-  {
-    "name": "Danilo Croce",
-    "institution": "Dept. of Enterprise Engineering - Univ. of Roma Tor Vergata"
-  },
-  {
-    "name": "Franco Maria Nardini",
-    "institution": "ISTI-CNR"
-  },
-  {
-    "name": "Fabio Gasparetti",
-    "institution": "Artificial Intelligence Laboratory - ROMA TRE University"
-  },
-  {
-    "name": "Maurizio Atzori",
-    "institution": "University of Cagliari"
-  },
-  {
-    "name": "Ludovico Boratto",
-    "institution": "University of Cagliari"
-  },
-  {
-    "name": "Pierpaolo Basile",
-    "institution": "Dipartimento di Informatica - University of Bari"
-  },
-  {
-    "name": "Diego Marcheggiani",
-    "institution": "Amazon"
-  },
-  {
-    "name": "Emanuele Rabosio",
+    "name": "Emanuele",
+    "surname": "Rabosio",
     "institution": "Human Technopole"
   },
   {
-    "name": "Andrea Esuli",
-    "institution": "Istituto di Scienza e Tecnologie dell'Informazione"
+    "name": "Alejandro Moreo",
+        "surname": "Fernández",
+    "institution": "Istituto di Scienza e Tecnologie dell’Informazione “A. Faedo”"
   },
   {
-    "name": "Aris Anagnostopoulos",
+    "name": "Pierpaolo",
+        "surname": "Basile",
+    "institution": "Dipartimento di Informatica - University of Bari"
+  },
+  {
+    "name": "Raffaele",
+    "surname": "Perego",
+    "institution": "ISTI-CNR"
+  },
+  {
+    "name": "Fedelucio",
+    "surname": "Narducci",
+    "institution": "Politecnico di Bari"
+  },
+  {
+    "name": "Maristella",
+    "surname": "Agosti",
+    "institution": "University of Padua"
+  },
+  {
+    "name": "Tommaso",
+    "surname": "Di Noia",
+    "institution": "Politecnico di Bari"
+  },
+  {
+    "name": "Ida",
+    "surname": "Mele",
+    "institution": "IASI-CNR"
+  },
+  {
+    "name": "Nicola" ,
+    "surname": "Ferro",
+    "institution": "University of Padova"
+  },
+  {
+    "name": "Cataldo" ,
+    "surname": "Musto",
+    "institution": "Dipartimento di Informatica - University of Bari"
+  },
+  {
+    "name": "Aris" ,
+    "surname": "Anagnostopoulos",
+    "institution": "sapienza University of Rome"
+  },
+  {
+    "name": "Fabio" ,
+    "surname": "Crestani",
+    "institution": "University of Lugano "
+  },
+  {
+    "name": "Matteo" ,
+    "surname": "Catena",
+    "institution":     "spazioDati"
+  },
+  {
+    "name": "Rossano" ,
+    "surname": "Venturini",
+    "institution": "Dipartimento di Informatica"
+  },
+  {
+    "name": "Guido" ,
+    "surname": "Zuccon",
+    "institution": "The University of Queensland"
+  },
+  {
+    "name": "Marco" ,
+    "surname": "de Gemmis",
+    "institution": "University of Bari Aldo Moro"
+  },
+  {
+    "name": "Nicola" ,
+    "surname": "Tonellotto",
+    "institution": "University of Pisa"
+  },
+  {
+    "name": "Massimo" ,
+    "surname": "Melucci",
+    "institution": "University of Padova"
+  },
+  {
+    "name":     "salvatore" ,
+    "surname": "Trani",
+    "institution": "ISTI-CNR"
+  },
+  {
+    "name": "Fabrizio" ,
+    "surname": "Silvestri",
+    "institution": "Facebook"
+  },
+  {
+    "name": "Marko" ,
+    "surname": "Tkalcic",
+    "institution": "University of Primorska"
+  },
+  {
+    "name": "Giorgio Maria" ,
+    "surname": "Di Nunzio",
+    "institution": "University of Padua"
+  },
+  {
+    "name": "Paolo" ,
+    "surname": "Boldi",
+    "institution": "University of Milan"
+  },
+  {
+    "name": "Liliana" ,
+    "surname": "Ardissono",
+    "institution": "University of Torino"
+  },
+  {
+    "name": "Claudio" ,
+    "surname": "Carpineto",
+    "institution": "Fondazione Ugo Bordoni"
+  },
+  {
+    "name": "Giovanni" ,
+    "surname": "Semeraro",
+    "institution": "University of Bari"
+  },
+  {
+    "name": "Gianmaria" ,
+    "surname": "Silvello",
+    "institution": "University of Padua"
+  },
+  {
+    "name": "Luca" ,
+    "surname": "Becchetti",
     "institution": "Sapienza University of Rome"
   },
   {
-    "name": "Cristina Ioana Muntean",
+    "name": "Umberto" ,
+    "surname": "Panniello",
+    "institution": "Politecnico di Bari"
+  },
+  {
+    "name": "Stefano" ,
+    "surname": "Mizzaro",
+    "institution": "University of Udine"
+  },
+  {
+    "name": "Pasquale" ,
+    "surname": "Lops",
+    "institution": "University of Bari"
+  },
+  {
+    "name": "Massimo" ,
+    "surname": "Quadrana",
+    "institution": "Pandora"
+  },
+  {
+    "name": "Danilo" ,
+    "surname": "Croce",
+    "institution": "Dept. of Enterprise Engineering - Univ. of Roma Tor Vergata"
+  },
+  {
+    "name": "Franco Maria" ,
+    "surname": "Nardini",
+    "institution": "ISTI-CNR"
+  },
+  {
+    "name": "Fabio" ,
+    "surname": "Gasparetti",
+    "institution": "Artificial Intelligence Laboratory - ROMA TRE University"
+  },
+  {
+    "name": "Maurizio" ,
+    "surname": "Atzori",
+    "institution": "University of Cagliari"
+  },
+  {
+    "name": "Ludovico" ,
+    "surname": "Boratto",
+    "institution": "University of Cagliari"
+  },
+  {
+    "name": "Diego" ,
+    "surname": "Marcheggiani",
+    "institution": "Amazon"
+  },
+  {
+    "name": "Andrea" ,
+    "surname": "Esuli",
+    "institution": "Istituto di Scienza e Tecnologie dell"
+  },
+  {
+    "name": "Cristina Ioana" ,
+    "surname": "Muntean",
     "institution": "ISTI CNR"
   },
   {
-    "name": "Iacopo Vagliano",
+    "name": "Iacopo" ,
+    "surname": "Vagliano",
     "institution": "Amsterdam Univesitair Medische Centra"
   },
   {
-    "name": "Francesco Barile",
+    "name": "Francesco" ,
+    "surname": "Barile",
     "institution": "Maastricht University"
   },
   {
-    "name": "Alessandro Bozzon",
+    "name": "Alessandro" ,
+    "surname": "Bozzon",
     "institution": "Delft University of Technology"
   },
   {
-    "name": "Giancarlo Ruffo",
+    "name": "Giancarlo" ,
+    "surname": "Ruffo",
     "institution": "Universita' di Torino"
   }
 ]

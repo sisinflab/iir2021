@@ -21,11 +21,12 @@ bodyClass: page-team-list
 
 <div class="container pt-6 pb-6">
     <div class="row pt-4 pb-6">
-    {% for item in site.data.program_committee %}
+    {% assign sorted = site.data.program_committee | sort: 'surname' %}
+    {% for item in sorted %}
     <div class="col-12 col-md-4 mb-3">
     <div class="team team-summary">
       <div class="team-meta">
-          <h2 class="team-name">{{ item.name }}</h2>
+          <h2 class="team-name">{{ item.name }} {{ item.surname }}</h2>
           <p class="team-description">{{ item.institution }}</p>
       </div>
     </div>
