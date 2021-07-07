@@ -21,4 +21,27 @@ To reach the Campus, please see the [directions](https://www.google.com/maps/dir
 To reach the central station from the Airport, please see [here](http://www.aeroportidipuglia.it/bari/bus).
 
 ## Accomodation
-A list will be released soon.
+
+- **Hotel Adria**   
+  Via Luigi Zuppetta, 10 
+  
+  1.3 km from the conference location
+
+- **iH Hotels Bari Oriente**   
+  Corso Cavour, 32
+
+  1.5 km from the conference location
+
+- **iH Grande Albergo Delle Nazioni**   
+  Lungomare Nazario Sauro, 7
+
+  1.8 km from the conference location
+
+- **Hotel Rondò**   
+  Corso Alcide de Gasperi, 308
+
+  2.1 km from the conference location
+
+
+- _other suggestions are available through e.g. booking.com, tripadvisor.com, etc_
+
