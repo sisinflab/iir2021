@@ -21,7 +21,7 @@ bodyClass: page-team-list
 
 <div class="container pt-6 pb-6">
     <div class="row pt-4 pb-6">
-    {% assign sorted = site.data.program_committee | sort: 'surname' %}
+    {% assign sorted = site.data.program_committee | sort_natural: 'surname' %}
     {% for item in sorted %}
     <div class="col-12 col-md-4 mb-3">
     <div class="team team-summary">
