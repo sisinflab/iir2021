@@ -6,7 +6,10 @@ bodyClass: page-about
 ---
 
 ## Registration
-Please fill the [registration form](https://forms.gle/71DiRHcsPhFmfLQU8) (It will be released soon).
+This year the participation to the _IIR 2021_ workshop can be virtual or in person. As in the past editions, the registration is free of charge, but it is strictly required.
+If you know whether and when you are coming, please register as soon as possible. You can register till Thursday, September 9th.
+To register, please fill in [this form](https://forms.gle/71DiRHcsPhFmfLQU8).
+We kindly remind that post-proceedings will include only accepted papers that will be presented at the workshop by one of the authors.
 
 ## Venue
 <iframe style="border: 0;" src="https://www.google.com/maps/embed?pb=!4v1520352962140!6m8!1m7!1sCAoSLEFGMVFpcE1RblY1RFVKWVg4ZXZkaFhKNTR3RGJEbzlWcUdiM2VyYjRzVTdw!2m2!1d41.10922401460508!2d16.87862365919635!3f230.98460847840107!4f-2.8544496909431274!5f0.7820865974627469" width="400" height="250" frameborder="0" allowfullscreen="allowfullscreen"><span style="display: inline-block; width: 0px; overflow: hidden; line-height: 0;" data-mce-type="bookmark" class="mce_SELRES_start">&#xFEFF;</span></iframe>
