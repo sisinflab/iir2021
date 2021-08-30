@@ -113,7 +113,7 @@ bodyClass: page-home
             {% endif %}
 
             <p class="d-print-none mt-5">
-                <a href="{{ page.collection | prepend: '/' }}" class="btn btn-light">
+                <a href="{{ page.collection | prepend: '/' | relative_url}}" class="btn btn-light">
                     <i class="fas fa-users"></i>&nbsp;{{ site.data.lang[site.conference.lang].overview | default: "Overview" }}
                 </a>
             </p>

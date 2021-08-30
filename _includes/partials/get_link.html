@@ -33,7 +33,7 @@
       {%- if talk.hide -%}
         {{ talk.name }}
       {%- else -%}
-        <a class="text-reset" href="{{ talk.url }}">
+        <a class="text-reset" href="{{ talk.url | relative_url}}">
           {{ talk.name }}
         </a>
       {%- endif -%}
@@ -47,7 +47,7 @@
       {%- if speaker.hide -%}
         {{ speaker.first_name }} {{ speaker.last_name }}
       {%- else -%}
-        <a class="text-reset" href="{{ speaker.url }}">
+        <a class="text-reset" href="{{ speaker.url | relative_url }}">
           {{ speaker.first_name }} {{ speaker.last_name }}
         </a>
       {%- endif -%}

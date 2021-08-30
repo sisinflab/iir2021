@@ -117,11 +117,11 @@ bodyClass: page-home
             {% endif %}
 
             <p class="d-print-none mt-5">
-                <a href="{{ page.collection | prepend: '/' }}" class="btn btn-light">
+                <a href="{{ page.collection | prepend: '/' | relative_url}}" class="btn btn-light">
                     <i class="fas fa-bullhorn"></i>&nbsp;{{ site.data.lang[site.conference.lang].overview | default: "Overview" }}
                 </a>
 
-                <a href="{{ site.conference.program.url }}" class="btn btn-light">
+                <a href="{{ site.conference.program.url | relative_url}}" class="btn btn-light">
                     <i class="far fa-calendar-alt"></i>&nbsp;{{ site.data.lang[site.conference.lang].program.title | default: "Program" }}
                 </a>
             </p>
