@@ -9,8 +9,8 @@
   <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}?t={{ site.time | date: "%s" }}" />
   <link href="{{ '/assets/css/style.css' | relative_url }}" rel="stylesheet">
 
-  <link rel="preload" as="font" href="/assets/webfonts/fa-regular-400.woff2" type="font/woff2" crossorigin="anonymous" />
-  <link rel="preload" as="font" href="/assets/webfonts/fa-solid-900.woff2" type="font/woff2" crossorigin="anonymous" />
+  <link rel="preload" as="font" href="{{ '/assets/webfonts/fa-regular-400.woff2' | relative_url }}" type="font/woff2" crossorigin="anonymous" />
+  <link rel="preload" as="font" href="{{ '/assets/webfonts/fa-solid-900.woff2' | relative_url }}" type="font/woff2" crossorigin="anonymous" />
   {% if site.conference.live -%}
   <link rel="prefetch" as="image" href="/assets/icons/live.svg" type="image/svg+xml" crossorigin="anonymous" />
   <link rel="prefetch" as="fetch" href="{{ '/assets/js/data.json' | relative_url }}" type="application/json" crossorigin="anonymous" />
