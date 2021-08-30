@@ -6,7 +6,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="shortcut icon" href="{{ '/images/favicon.ico' | relative_url }}">
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}?t={{ site.time | date: "%s" }}" />
   <link href="{{ '/assets/css/style.css' | relative_url }}" rel="stylesheet">
+
+  <link rel="preload" as="font" href="/assets/webfonts/fa-regular-400.woff2" type="font/woff2" crossorigin="anonymous" />
+  <link rel="preload" as="font" href="/assets/webfonts/fa-solid-900.woff2" type="font/woff2" crossorigin="anonymous" />
+  {% if site.conference.live -%}
+  <link rel="prefetch" as="image" href="/assets/icons/live.svg" type="image/svg+xml" crossorigin="anonymous" />
+  <link rel="prefetch" as="fetch" href="{{ '/assets/js/data.json' | relative_url }}" type="application/json" crossorigin="anonymous" />
+  {%- endif %}
+
   {% if page.description %}
   <meta name="description" content="{{ page.description }}" />
   {% endif %}
@@ -27,7 +36,8 @@
   </div>
   {% include footer.html %}
   {% include sub-footer.html %}
-  <script type="text/javascript" src="{{ "/assets/js/scripts.js" | relative_url }}"></script>
+  <script type="text/javascript" src="{{ '/assets/js/scripts.js' | relative_url }}"></script>
+  <script type="text/javascript" src="{{ '/assets/js/main.js' | relative_url}}?t={{ site.time | date: "%s" }}"></script>
   {% include google-analytics.html %}
 </body>
 </html>

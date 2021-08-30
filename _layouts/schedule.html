@@ -5,23 +5,29 @@ bodyClass: page-home
 ---
 
 
-{% include partials/header.html %}
+  {% assign nbr_days = site.data.program.days | size -%}
+<div class="intro" style="padding-bottom:20px">
+  <div class="container">
+    <div class="row justify-content-start">
+      <div class="col-12 col-md-7 col-lg-6 order-2 order-md-1">
+        <h1 class="display-5 {% if nbr_days > 1 -%} mb-2 {%- else -%} mb-4 {%- endif %}">
+          {%- if page.title -%}
+            {{- page.title -}}
+          {%- else -%}
+            {{- site.data.lang[site.conference.lang].program.title | default: "Program" -}}
+          {%- endif -%}
 
-  {% assign nbr_days = site.data.schedule.days | size -%}
+<!--          {{ content }}-->
+        </h1>
+      </div>
+    </div>
+  </div>
+</div>
 
-  <h1 class="display-5 {% if nbr_days > 1 -%} mb-2 {%- else -%} mb-4 {%- endif %}">
-    {%- if page.title -%}
-      {{- page.title -}}
-    {%- else -%}
-      {{- site.data.lang[site.conference.lang].program.title | default: "Program" -}}
-    {%- endif -%}
-  </h1>
-
-  {{ content }}
 
   {%- if nbr_days > 1 %}
     <ul class="nav justify-content-center mb-3 btn-group" id="day-list" role="tablist">
-      {%- for d in site.data.schedule.days -%}
+      {%- for d in site.data.program.days -%}
         {%- include partials/get_day_hash.html %}
         <li class="nav-item" role="presentation">
           <a class="nav-link btn btn-outline-secondary {%- if forloop.index == 1 %} active{% endif %}" id="tab-{{ day_hash }}" data-toggle="tab" {%- if d.date %} data-date="{{ d.date }}" {%- endif %} href="#{{ day_hash }}" role="tab" aria-controls="{{ day_hash }}" aria-selected="{% if forloop.index == 1 %}true{% else %}false{% endif %}">{{ day_name }}</a>
@@ -31,9 +37,8 @@ bodyClass: page-home
     <div class="tab-content" id="day-content">
   {%- endif %}
 
-  <div class="container pt-6 pb-6">
-    <div class="row">
-  {%- for d in site.data.schedule.days -%}
+
+  {%- for d in site.data.program.days -%}
     {%- if nbr_days > 1 -%}
       {%- include partials/get_day_hash.html %}
       <div class="tab-pane {%- if forloop.index == 1 %} active{% endif %}" id="{{ day_hash }}" role="tabpanel" aria-labelledby="tab-{{ day_hash }}">
@@ -199,14 +204,17 @@ bodyClass: page-home
     </div>
   {%- endif -%}
 
-  {%- if site.conference.talks.main_categories %}
-    <h5 class="mt-4">{{ site.data.lang[site.conference.lang].program.legend | default: "Caption" }}</h5>
-      {%- for main_cat in site.conference.talks.main_categories %}
-        <div class="d-block d-sm-inline-block m-1 p-1 pl-2 pr-2 border-soft-{{ main_cat.color }} bg-soft-{{ main_cat.color }} font-weight-normal">
-          {{- main_cat.name -}}
-        </div>
-      {%- endfor -%}
-  {%- endif -%}
-
-
-{% include partials/footer.html %}
+<div class="intro" style="padding-bottom:20px">
+  <div class="container">
+    <div class="row justify-content-start">
+      {%- if site.conference.talks.main_categories %}
+        <h5 class="mt-4">{{ site.data.lang[site.conference.lang].program.legend | default: "Categories" }}</h5>
+          {%- for main_cat in site.conference.talks.main_categories %}
+            <div class="d-block d-sm-inline-block m-1 p-1 pl-2 pr-2 border-soft-{{ main_cat.color }} bg-soft-{{ main_cat.color }} font-weight-normal">
+              {{- main_cat.name -}}
+            </div>
+          {%- endfor -%}
+      {%- endif -%}
+    </div>
+  </div>
+</div>

@@ -7,19 +7,19 @@
   {%- assign link_href = link.absolute_url -%}
 
 {%- elsif link.relative_url -%}
-  {%- assign link_href = link.relative_url | prepend: site.baseurl -%}
+  {%- assign link_href = link.relative_url -%}
 
 {%- elsif link.file -%}
   {%- assign link_icon = "file-alt" -%}
 
   {%- if talk -%}
-    {%- assign link_href = link.file | prepend: '/documents/slides/' | prepend: site.baseurl -%}
+    {%- assign link_href = link.file | prepend: '/documents/slides/' -%}
 
   {%- elsif speaker -%}
-    {%- assign link_href = link.file | prepend: '/documents/bio/' | prepend: site.baseurl -%}
+    {%- assign link_href = link.file | prepend: '/documents/bio/' -%}
 
   {%- else -%}
-    {%- assign link_href = link.file | prepend: '/documents/' | prepend: site.baseurl -%}
+    {%- assign link_href = link.file | prepend: '/documents/' -%}
 
   {%- endif -%}
 
@@ -33,7 +33,7 @@
       {%- if talk.hide -%}
         {{ talk.name }}
       {%- else -%}
-        <a class="text-reset" href="{{ talk.url | prepend: site.baseurl }}">
+        <a class="text-reset" href="{{ talk.url }}">
           {{ talk.name }}
         </a>
       {%- endif -%}
@@ -47,7 +47,7 @@
       {%- if speaker.hide -%}
         {{ speaker.first_name }} {{ speaker.last_name }}
       {%- else -%}
-        <a class="text-reset" href="{{ speaker.url | prepend: site.baseurl }}">
+        <a class="text-reset" href="{{ speaker.url }}">
           {{ speaker.first_name }} {{ speaker.last_name }}
         </a>
       {%- endif -%}

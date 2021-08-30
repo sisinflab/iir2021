@@ -1,0 +1,73 @@
+days:
+  - name: Monday
+    abbr: Mo
+    date: 2021-09-13
+    rooms:
+      - name: Aula Magna DICAR
+        talks:
+          - name: '"Bad Practices" in the Evaluation of Recommender Systems'
+            time_start: '14:30'
+            time_end: '16:00'
+          - name: Coffe Break
+            time_start: '16:00'
+            time_end: '16:30'
+            hide: true
+          - name: Session 1
+            time_start: '16:30'
+            time_end: '17:45'
+          - name: Welcome Cocktail
+            time_start: '18:00'
+            time_end: '20:00'
+            hide: true
+  - name: Tuesday
+    abbr: Tu
+    date: 2021-09-14
+    rooms:
+      - name: Aula Magna DICAR
+        talks:
+          - name: Domain-specific knowledge graphs construction&#58; challenges and opportunities
+            time_start: '09:15'
+            time_end: '10:30'
+          - name: Coffe Break
+            time_start: '10:30'
+            time_end: '11:00'
+            hide: true
+          - name: Session 2
+            time_start: '11:00'
+            time_end: '13:00'
+          - name: Lunch
+            time_start: '13:00'
+            time_end: '14:00'
+          - name: Session 3
+            time_start: '14:00'
+            time_end: '15:30'
+          - name: Tutorial Nicola Tonellotto
+            time_start: '15:30'
+            time_end: '17:00'
+          - name: Coffe Break
+            time_start: '17:00'
+            time_end: '17:30'
+          - name: Tutorial Lex - Schedl
+            time_start: '17:30'
+            time_end: '19:00'
+  - name: Wednesday
+    abbr: We
+    date: 2021-09-15
+    rooms:
+      - name: Aula Magna DICAR
+        talks:
+          - name: Taming the untameable&#58; How Information Retrieval can be integrated into neuroscience to foster a naturalistic paradigm shift
+            time_start: '09:15'
+            time_end: '10:30'
+          - name: Coffe Break
+            time_start: '10:30'
+            time_end: '11:00'
+          - name: Session 4
+            time_start: '11:00'
+            time_end: '12:45'
+          - name: Closing and Award Ceremony
+            time_start: '12:45'
+            time_end: '13:15'
+          - name: Lunch
+            time_start: '13:15'
+            time_end: '14:00'

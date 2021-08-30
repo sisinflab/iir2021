@@ -9,7 +9,7 @@
   {%- if speaker.hide -%}
     {{ speaker_short }}
   {%- else -%}
-    <a class="text-reset" href="{{ speaker.url | prepend: site.baseurl }}">{{ speaker_short }}</a>
+    <a class="text-reset" href="{{ speaker.url }}">{{ speaker_short }}</a>
   {%- endif -%}
   {%- if forloop.last != true %}, {% endif -%}
 

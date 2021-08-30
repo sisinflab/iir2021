@@ -1,7 +1,7 @@
 {%- assign nbr_days = site.data.program.days | size -%}
 
 <a href="
-  {{- site.conference.program.url | prepend: site.baseurl -}}
+  {{- site.conference.program.url -}}
   {%- if nbr_days > 1 and day_hash -%}
     #{{ day_hash }}
   {%- endif -%}

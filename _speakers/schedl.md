@@ -1,10 +1,11 @@
 ---
-name: Vim Impetus Placerat Cotidieque Ad
-speakers:
-  - Tolga Philip
-categories:
-  - Cat B
-  - Talk
+name: Markus Schedl
+hide: true
+first_name: Markus
+last_name: Schedl
+links:
+  - name: Profile
+    absolute_url: https://github.com
 ---
 
 Lorem ipsum dolor sit amet, mel tritani quaestio ne. Sed cu quot erat. Stet mutat moderatius ad vel. Ne eum quod expetendis, odio eros nominavi sed et, eu suscipit atomorum sit. Facete maluisset urbanitas in eos, idque expetendis et vis, et quo everti quaestio maiestatis.

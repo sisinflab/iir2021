@@ -36,6 +36,30 @@ collections:
     output: true
   talks:
     output: true
+    permalink: /:collection/:title/
+  speakers:
+    output: true
+    permalink: /:collection/:title/
+  rooms:
+    output: true
+    permalink: /:collection/:title/
+
+defaults:
+  - scope:
+      path: ""
+      type: talks
+    values:
+      layout: talk
+  - scope:
+      path: ""
+      type: speakers
+    values:
+      layout: speaker
+  - scope:
+      path: ""
+      type: rooms
+    values:
+      layout: room
 
 sass:
   indentWidth: 4
@@ -58,21 +82,48 @@ exclude:
   - README.md
 
 conference:
+
+  # Language
   lang: en
+
+  # Show theme errors:
   show_errors: True
 
+  # Main landing page
+  main:
+    # logo:
+    #   img: ''
+    links:
+      - name: Program
+        relative_url: /program/
+
+  talks:
+    # Talk categories
+    main_categories:
+      - name: Keynote
+        color: info
+      - name: Tutorial
+        color: dark
+      - name: Session
+        color: warning
+      - name: Breaks
+        color: success
+      - name: Award
+        color: danger
+
+    # Hide icons on talk overview page
+    hide_icons: false
+
   speakers:
+    # Show first and last name
     show_firstname: true
 
-  location:
-    url: '/location'
-    map:
-      enable: true
-      default_zoom: 17
-      home_coord: 47.37808, 8.53935
-      map_provider: "OpenStreetMap.Mapnik"
-
   program:
+    # URL of program page
     url: '/program'
-    time_steps: 15
+
+    # Time steps in program table
+    time_steps: 15 # in minutes
+
+    # Show intermediary time steps (next to full hours)
     show_alltimes: true
