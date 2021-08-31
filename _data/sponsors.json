@@ -1,0 +1,17 @@
+[
+  {
+    "title": "Auriga",
+    "description": "Auriga",
+    "image": "images/auriga.png"
+  },
+  {
+    "title": "Fincons",
+    "description": "Fincons",
+    "image": "images/fincons.png"
+  },
+  {
+    "title": "Exprivia",
+    "description": "Exprivia",
+    "image": "images/exprivia.png"
+  }
+]

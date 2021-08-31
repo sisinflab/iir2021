@@ -114,7 +114,7 @@ bodyClass: page-home
                 </th>
               {%- elsif site.conference.program.show_alltimes -%}
                 <th scope="row" class="col-title text-right text-muted font-weight-normal" style="z-index: {{ z-index-max }}">
-                  :{{ current_min }}
+                  {{- current_time -}}
                 </th>
               {%- else -%}
                 <th scope="row" class="col-title" style="z-index: {{ z-index-max }}"></th>
