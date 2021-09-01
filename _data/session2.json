@@ -1,0 +1,62 @@
+[
+  {
+    "title": "Keyword Extraction for Improved Document Retrieval in Conversational Search",
+    "authors": "Oleg Borisov, Mohammad Aliannejadi and Fabio Crestani",
+    "type": "LP"
+  },
+  {
+    "title": "On Single and Multiple Representations in Dense Passage Retrieval",
+    "authors": "Craig Macdonald, Nicola Tonellotto and Iadh Ounis",
+    "type": "LP"
+  },
+  {
+    "title": "FashionSearch++: Improving Consumer-to-Shop Clothes Retrieval with Hard Negatives",
+    "authors": "Davide Morelli, Marcella Cornia and Rita Cucchiara",
+    "type": "SP"
+  },
+  {
+    "title": "Measuring Gender Stereotype Reinforcement in Information Retrieval Systems",
+    "authors": "Nicolò Felicioni, Maurizio Ferrari Dacrema, Fernando Benjamín Pérez Maurera and Paolo Cremonesi",
+    "type": "ABS"
+  },
+  {
+    "title": "SAFIR: a Semantic-Aware Neural Framework for IR",
+    "authors": "Maristella Agosti, Stefano Marchesin and Gianmaria Silvello",
+    "type": "ABS"
+  },
+  {
+    "title": "Evaluating Conversational Systems: a Hierarchical Dependence-Aware Framework",
+    "authors": "Guglielmo Faggioli, Marco Ferrante, Nicola Ferro, Raffaele Perego and Nicola Tonellotto",
+    "type": "ABS"
+  },
+  {
+    "title": "Learning Passage Impacts for Inverted Indexes",
+    "authors": "Antonio Mallia, Omar Khattab, Torsten Suel and Nicola Tonellotto",
+    "type": "ABS"
+  },
+  {
+    "title": "Generalized Funnelling: Ensemble Learning and Heterogeneous Document Embeddings for Cross-Lingual Text Classification",
+    "authors": "Andrea Pedrotti, Fabrizio Sebastiani and Alejandro Moreo",
+    "type": "ABS"
+  },
+  {
+    "title": "Neural IR for Domain-Specific Tasks",
+    "authors": "Óscar Espitia and Gabriella Pasi",
+    "type": "ABS"
+  },
+  {
+    "title": "Adaptive Utterance Rewriting for Conversational Search",
+    "authors": "Ida Mele, Cristina Ioana Muntean, Franco Maria Nardini, Raffaele Perego, Nicola Tonellotto and Ophir Frieder",
+    "type": "ABS"
+  },
+  {
+    "title": "On Building Benchmark Datasets for Understudied Information Retrieval Tasks: the Case of Semantic Query Labeling",
+    "authors": "Elias Bassani and Gabriella Pasi",
+    "type": "ABS"
+  },
+  {
+    "title": "Do Hard Topics Exist? A Statistical Analysis",
+    "authors": "Shane Culpepper, Guglielmo Faggioli, Nicola Ferro and Oren Kurland",
+    "type": "ABS"
+  }
+]

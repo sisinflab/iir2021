@@ -1,0 +1,47 @@
+[
+  {
+    "title": "Reading songs: A computational analysis of popular songs lyrics",
+    "authors": "Silvia Corbara and Alessio Molinari",
+    "type": "LP"
+  },
+  {
+    "title": "Extracting Relations from Italian Wikipedia using Unsupervised Information Extraction",
+    "authors": "Pierluigi Cassotti, Lucia Siciliani, Pierpaolo Basile, Marco de Gemmis and Pasquale Lops",
+    "type": "LP"
+  },
+  {
+    "title": "Sequential Modeling in Vector Space",
+    "authors": "Benyou Wang, Emanuele Di Buccio and Massimo Melucci",
+    "type": "SP"
+  },
+  {
+    "title": "Spectral Relaxations and Fair Densest Subgraphs",
+    "authors": "Aris Anagnostopoulos, Luca Becchetti, Adriano Fazzone, Cristina Menghini and Chris Schwiegelshohn",
+    "type": "ABS"
+  },
+  {
+    "title": "PTHash: Revisiting FCH Minimal Perfect Hashing",
+    "authors": "Giulio Ermanno Pibiri and Roberto Trani",
+    "type": "ABS"
+  },
+  {
+    "title": "Learning Early Exit Strategies for Additive Ranking Ensembles ",
+    "authors": "Francesco Busolin, Claudio Lucchese, Franco Maria Nardini, Salvatore Orlando, Raffaele Perego and Salvatore Trani",
+    "type": "ABS"
+  },
+  {
+    "title": "Representing, Tracking and Revising the User’s Knowledge: A search result filter framework",
+    "authors": "Dima El Zein and Célia da Costa Pereira",
+    "type": "ABS"
+  },
+  {
+    "title": "User-friendly Query Interfaces for the HOPE Project",
+    "authors": "Diego Marcia, Manuela Sanguinetti and Maurizio Atzori",
+    "type": "ABS"
+  },
+  {
+    "title": "Weighting Passages Enhances Accuracy",
+    "authors": "Antonio Mallia, Omar Khattab, Torsten Suel and Nicola Tonellotto",
+    "type": "ABS"
+  }
+]

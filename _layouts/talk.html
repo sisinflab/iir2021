@@ -73,7 +73,20 @@ bodyClass: page-home
                 {% endfor %}
             </div>
 
+            {% if site.data[talk.data] %}
+                {% for presentation in site.data[talk.data] %}
+                    <span class="paper-type" title="{{ presentation.type }}">{{ presentation.type }}</span>
+                    <h2 class="font-weight-bold">{{ presentation.title }}</h2>
+                    <p class="mb-3 font-weight-light">
+                        {{ presentation.authors }}
+                    </p>
+                {% endfor %}
+            {% else %}
+
             {{ content }}
+
+            {% endif %}
+
 
             {% include partials/get_link_types.html %}
 

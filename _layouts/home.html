@@ -67,8 +67,31 @@ bodyClass: page-home
   </div>
 </div>
 
+
+{% if site.data.sponsors %}
+<div class="strip strip-grey" id="sponsor">
+  <div class="container pt-6 pb-6 pt-md-10 pb-md-10">
+    <div class="row justify-content-center">
+
+      {% for sponsor in site.data.sponsors %}
+      <div class="col-12 col-md-6 col-lg-4 mb-2">
+        <div class="feature">
+          {% if sponsor.image %}
+          <div class="feature-image"><img alt="{{ sponsor.title }} logo" src="{{ sponsor.image | relative_url }}" /></div>
+          {% endif %}
+          <h2 class="feature-title">{{ sponsor.title }}</h2>
+        </div>
+      </div>
+      {% endfor %}
+
+    </div>
+  </div>
+</div>
+{% endif %}
+
+
 {% if site.data.features %}
-<div class="strip strip-grey">
+<div class="strip">
   <div class="container pt-6 pb-6 pt-md-10 pb-md-10">
     <div class="row justify-content-center">
 
@@ -80,29 +103,6 @@ bodyClass: page-home
           {% endif %}
           <h2 class="feature-title">{{ feature.title }}</h2>
           <div class="feature-content">{{ feature.description }}</div>
-        </div>
-      </div>
-      {% endfor %}
-
-    </div>
-  </div>
-</div>
-{% endif %}
-
-
-{% if site.data.sponsors %}
-<div class="strip" id="sponsor">
-  <div class="container pt-6 pb-6 pt-md-10 pb-md-10">
-    <div class="row justify-content-center">
-
-      {% for sponsor in site.data.sponsors %}
-      <div class="col-12 col-md-6 col-lg-4 mb-2">
-        <div class="feature">
-          {% if sponsor.image %}
-          <div class="feature-image"><img alt="{{ sponsor.title }} logo" src="{{ sponsor.image | relative_url }}" /></div>
-          {% endif %}
-          <h2 class="feature-title">{{ sponsor.title }}</h2>
-          <div class="feature-content">{{ sponsor.description }}</div>
         </div>
       </div>
       {% endfor %}

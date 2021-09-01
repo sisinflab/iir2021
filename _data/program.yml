@@ -5,6 +5,9 @@ days:
     rooms:
       - name: Aula Magna DICAR
         talks:
+          - name: Welcome
+            time_start: '14:00'
+            time_end: '14:30'
           - name: '"Bad Practices" in the Evaluation of Recommender Systems'
             time_start: '14:30'
             time_end: '16:00'
