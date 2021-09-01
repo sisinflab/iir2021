@@ -28,8 +28,8 @@ To reach the central station from the Airport, please see [here](http://www.aero
 ## Accomodation
 
 - **Hotel Adria**   
-  Via Luigi Zuppetta, 10 
-  
+  Via Luigi Zuppetta, 10
+
   1.3 km from the conference location
 
 - **iH Hotels Bari Oriente**   
@@ -49,4 +49,3 @@ To reach the central station from the Airport, please see [here](http://www.aero
 
 
 - _other suggestions are available through e.g. booking.com, tripadvisor.com, etc_
-

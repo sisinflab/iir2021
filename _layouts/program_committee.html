@@ -3,10 +3,10 @@ layout: default
 bodyClass: page-team-list
 ---
 
-<div class="intro" style="padding-bottom:20px">
+<div class="intro pb-0">
     <div class="container">
         <div class="row justify-content-start">
-            <div class="col-12 col-md-7 col-lg-6 order-2 order-md-1">
+            <div class="col-12">
                 {{ content }}
             </div>
             {% if page.intro_image %}
@@ -19,7 +19,7 @@ bodyClass: page-team-list
 </div>
 
 
-<div class="container pt-6 pb-6">
+<div class="container pt-2 pb-6">
     <div class="row pt-4 pb-6">
     {% assign sorted = site.data.program_committee | sort_natural: 'surname' %}
     {% for item in sorted %}

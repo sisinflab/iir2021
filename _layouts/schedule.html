@@ -6,7 +6,7 @@ bodyClass: page-home
 
 
   {% assign nbr_days = site.data.program.days | size -%}
-<div class="intro" style="padding-bottom:20px">
+<div class="intro">
   <div class="container">
     <div class="row justify-content-start">
       <div class="col-12 col-md-7 col-lg-6 order-2 order-md-1">
@@ -24,9 +24,14 @@ bodyClass: page-home
   </div>
 </div>
 
+<div class="container pb-6">
+    <div class="row justify-content-start">
+        <div class="col-12 col-md-8">
+
 
   {%- if nbr_days > 1 %}
-    <ul class="nav justify-content-center mb-3 btn-group" id="day-list" role="tablist">
+  <div style="display:flex;justify-content:space-between">
+    <ul class="nav justify-content-left btn-group mb-3" id="day-list" role="tablist">
       {%- for d in site.data.program.days -%}
         {%- include partials/get_day_hash.html %}
         <li class="nav-item" role="presentation">
@@ -34,8 +39,11 @@ bodyClass: page-home
         </li>
       {%- endfor %}
     </ul>
+    <div class="btn-group mb-1"><span class="nav-item"><a class="nav-link  btn btn-outline-secondary" href="{{ 'talks' | prepend: '/' | relative_url}}"><i class="fas fa-bullhorn"></i>&nbsp;Talk Overview</a></span></div>
+</div>
     <div class="tab-content" id="day-content">
   {%- endif %}
+
 
 
   {%- for d in site.data.program.days -%}
@@ -43,7 +51,6 @@ bodyClass: page-home
       {%- include partials/get_day_hash.html %}
       <div class="tab-pane {%- if forloop.index == 1 %} active{% endif %}" id="{{ day_hash }}" role="tabpanel" aria-labelledby="tab-{{ day_hash }}">
     {%- endif %}
-
     <div class="sticky-top syncscroll overflow-hidden" name="sync-table">
       <table class="table mb-0 mx-auto">
         <thead>
@@ -164,7 +171,7 @@ bodyClass: page-home
                       {%- assign live_button_styleclass = "mb-2" %}
                       {%- include partials/show_live_button.html %}
 
-                      <p class="mb-2">
+                      <p class="font-weight-bold mb-2">
                         {%- include partials/show_talk.html %}
                       </p>
                       <p class="font-weight-light mb-2">
@@ -204,11 +211,11 @@ bodyClass: page-home
     </div>
   {%- endif -%}
 
-<div class="intro" style="padding-bottom:20px">
+<div class="intro pb-6">
   <div class="container">
-    <div class="row justify-content-start">
+    <div>
       {%- if site.conference.talks.main_categories %}
-        <h5 class="mt-4">{{ site.data.lang[site.conference.lang].program.legend | default: "Categories" }}</h5>
+        <span class="talk-authors">{{ site.data.lang[site.conference.lang].program.legend | default: "Categories" }}</span>
           {%- for main_cat in site.conference.talks.main_categories %}
             <div class="d-block d-sm-inline-block m-1 p-1 pl-2 pr-2 border-soft-{{ main_cat.color }} bg-soft-{{ main_cat.color }} font-weight-normal">
               {{- main_cat.name -}}
@@ -217,4 +224,8 @@ bodyClass: page-home
       {%- endif -%}
     </div>
   </div>
+</div>
+
+</div>
+</div>
 </div>

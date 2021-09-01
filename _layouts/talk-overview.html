@@ -4,7 +4,7 @@ layout: default
 bodyClass: page-home
 ---
 
-<div class="intro" style="padding-bottom:20px">
+<div class="intro pb-12">
     <div class="container">
         <div class="row justify-content-start">
             <div class="col-12">
@@ -12,7 +12,7 @@ bodyClass: page-home
                     {%- if page.title -%}
                     {{- page.title -}}
                     {%- else -%}
-                    {{- site.data.lang[site.conference.lang].talk.overview | default: "Talks" -}}
+                    {{- site.data.lang[site.conference.lang].talk.overview | default: "Talk Overview" -}}
                     {%- endif -%}
                 </h1>
 

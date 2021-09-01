@@ -87,11 +87,11 @@ Submission will be through Easychair at [https://easychair.org/conferences/?conf
 **A Special Prize will be awarded to the Best Papers selected by the Steering Committee of IIR.**
 
 ## Important Dates
-* **Submission website opens**: May 10, 2021
+* **Submission website opens**: <s>May 10, 2021</s>
 * **Submission deadline**: <s>June 18, 2021</s>
-* **Submission deadline**: July 2, 2021
-* **Notification of acceptance**: August 4, 2021
-* **Camera ready deadline**: August 13, 2021
+* **Submission deadline**: <s>July 2, 2021</s>
+* **Notification of acceptance**: <s>August 4, 2021</s>
+* **Camera ready deadline**: <s>August 13, 2021</s>
 * **IIR 2021**: September 13-15, 2021
 
 Deadlines refer to 23:59 (11:59pm) in the AoE (Anywhere on Earth) time zone.

@@ -17,7 +17,7 @@ main:
   - name: "Proceedings"
     url: "/proceedings/"
     weight: 8
-  - name: "Sponsor"
+  - name: "Sponsors"
     url: "/#sponsor"
     weight: 9
   - name: "Attendance"
