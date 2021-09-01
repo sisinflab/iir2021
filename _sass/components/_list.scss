@@ -25,7 +25,7 @@ ul.talks li:hover {
 span.talk-type {
     display: flex;
     padding: 3px 6px;
-    justify-content: flex-start;
+    justify-content: flex-end;
     color: #ffffff;
     font-size: 10px;
     align-self: flex-start;
@@ -35,6 +35,20 @@ span.talk-type {
     border-radius: 4px;
     letter-spacing: 1px;
     margin-left:40px;
+}
+
+span.talk-duration {
+    display: flex;
+    padding: 3px 6px;
+    justify-content: flex-start;
+    background-color: $black;
+    color: #ffffff;
+    font-size: 10px;
+    align-self: flex-start;
+    border-radius: 4px;
+    letter-spacing: 1px;
+    margin-left:40px;
+    margin-top: 10px;
 }
 
 span.talk-title {

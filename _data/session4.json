@@ -2,51 +2,61 @@
   {
     "title": "Recommending Third-party Library Updates with LSTM Neural Networks",
     "authors": "Phuong T. Nguyen, Juri Di Rocco, Riccardo Rubei, Claudio Di Sipio and Davide Di Ruscio",
-    "type": "LP"
+    "type": "LP",
+    "duration": 15
   },
   {
     "title": "Towards a Human in the Loop Approach to Preserve Privacy in Images",
     "authors": "Andrea Mauri and Alessandro Bozzon",
-    "type": "LP"
+    "type": "LP",
+    "duration": 15
   },
   {
     "title": "AURYGA: a recommender system for game tagging",
     "authors": "Riccardo Rubei and Claudio Di Sipio",
-    "type": "SP"
+    "type": "SP",
+    "duration": 8
   },
   {
     "title": "Garbled-Word Embeddings for Jumbled Text",
     "authors": "Gianluca Sperduti, Alejandro Moreo and Fabrizio Sebastiani",
-    "type": "SP"
+    "type": "SP",
+    "duration": 10
   },
   {
     "title": "GUapp: Enhancing Job Recommendations with Knowledge Graphs",
     "authors": "Giovanni Maria Biancofiore, Tommaso Di Noia, Eugenio Di Sciascio, Fedelucio Narducci and Paolo Pastore",
-    "type": "ABS"
+    "type": "ABS",
+    "duration": 8
   },
   {
     "title": "Sparse Embeddings for Recommender Systems with Knowledge Graphs",
     "authors": "Vito Walter Anelli, Tommaso Di Noia, Eugenio Di Sciascio, Antonio Ferrara and Alberto Carlo Maria Mancino",
-    "type": "ABS"
+    "type": "ABS",
+    "duration": 8
   },
   {
     "title": "Neural Pruning for Efficient Learning to Rank",
     "authors": "ACosimo Rulli, Franco Maria Nardini, Salvatore Trani and Rossano Venturini",
-    "type": "ABS"
+    "type": "ABS",
+    "duration": 8
   },
   {
     "title": "An Overview on Evaluation LABS and Open Issues in Health-related Credible Information Retrieval",
     "authors": "Rishabh Upadhyay, Gabriella Pasi and Marco Viviani",
-    "type": "ABS"
+    "type": "ABS",
+    "duration": 8
   },
   {
     "title": "Multidimensional Relevance in Legal and Health Domains",
     "authors": "Georgios Peikos and Gabriella Pasi",
-    "type": "ABS"
+    "type": "ABS",
+    "duration": 8
   },
   {
     "title": "Similarity-Based Reasoning and Retrieval with Order-Sorted Feature Logic",
     "authors": "Gian Carlo Milanese and Gabriella Pasi",
-    "type": "ABS"
+    "type": "ABS",
+    "duration": 8
   }
 ]

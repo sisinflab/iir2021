@@ -2,41 +2,49 @@
   {
     "title": "Measuring the Ranking Quality of Recommendations in a Two-Dimensional Carousel Setting",
     "authors": "Alessandro Fabris, Alberto Purpura, Gianmaria Silvello and Gian Antonio Susto",
-    "type": "LP"
+    "type": "LP",
+    "duration": 15
   },
   {
     "title": "Holistic Summarization of Recommender Systems Results",
     "authors": "Noemi Mauro, Zhongli Filippo Hu, Liliana Ardissono, Sara Capecchi, Gianmarco Izzi and Claudio Mattutino",
-    "type": "SP"
+    "type": "SP",
+    "duration": 10
   },
   {
     "title": "Quality and Diversity of Recommender Systems Users’ Choices: a Simulation Perspective",
     "authors": "Naieme Hazrati and Francesco Ricci",
-    "type": "ABS"
+    "type": "ABS",
+    "duration": 8
   },
   {
     "title": "How to perform reproducible experiments in the ELLIOT recommendation framework: data processing, model selection, and performance evaluation",
     "authors": "Vito Walter Anelli, Alejandro Bellogín, Antonio Ferrara, Daniele Malitesta, Felice Antonio Merra, Claudio Pomo, Francesco Maria Donini, Eugenio Di Sciascio and Tommaso Di Noia",
-    "type": "ABS"
+    "type": "ABS",
+    "duration": 8
   },
   {
     "title": "An Investigation on the Impact of Natural Language on Conversational Recommendations",
     "authors": "Andrea Iovine, Fedelucio Narducci, Marco de Gemmis and Giovanni Semeraro",
-    "type": "ABS"
+    "type": "ABS",
+    "duration": 8
   },
   {
     "title": "A Regression Framework to Interpret the Robustness of Recommender Systems Against Shilling Attacks ",
     "authors": "Yashar Deldjoo, Tommaso Di Noia, Eugenio Di Sciascio and Felice Antonio Merra",
-    "type": "ABS"
+    "type": "ABS",
+    "duration": 8
   },
   {
     "title": "Using an ensemble of features for personalized recommendations of scientific publications",
     "authors": "Andrea Pedrotti, Fabrizio Sebastiani and Alejandro Moreo",
-    "type": "ABS"
+    "type": "ABS",
+    "duration": 8
   },
   {
     "title": "Combining Mitigation Treatments against Biases in Personalized Rankings: Use Case on Item Popularity",
     "authors": "Ludovico Boratto, Gianni Fenu and Mirko Marras",
-    "type": "ABS"
+    "type": "ABS",
+    "duration": 8
   }
 ]

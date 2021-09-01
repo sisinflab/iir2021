@@ -2,61 +2,73 @@
   {
     "title": "Keyword Extraction for Improved Document Retrieval in Conversational Search",
     "authors": "Oleg Borisov, Mohammad Aliannejadi and Fabio Crestani",
-    "type": "LP"
+    "type": "LP",
+    "duration": 15
   },
   {
     "title": "On Single and Multiple Representations in Dense Passage Retrieval",
     "authors": "Craig Macdonald, Nicola Tonellotto and Iadh Ounis",
-    "type": "LP"
+    "type": "LP",
+    "duration": 15
   },
   {
     "title": "FashionSearch++: Improving Consumer-to-Shop Clothes Retrieval with Hard Negatives",
     "authors": "Davide Morelli, Marcella Cornia and Rita Cucchiara",
-    "type": "SP"
+    "type": "SP",
+    "duration": 10
   },
   {
     "title": "Measuring Gender Stereotype Reinforcement in Information Retrieval Systems",
     "authors": "Nicolò Felicioni, Maurizio Ferrari Dacrema, Fernando Benjamín Pérez Maurera and Paolo Cremonesi",
-    "type": "ABS"
+    "type": "ABS",
+    "duration": 8
   },
   {
     "title": "SAFIR: a Semantic-Aware Neural Framework for IR",
     "authors": "Maristella Agosti, Stefano Marchesin and Gianmaria Silvello",
-    "type": "ABS"
+    "type": "ABS",
+    "duration": 8
   },
   {
     "title": "Evaluating Conversational Systems: a Hierarchical Dependence-Aware Framework",
     "authors": "Guglielmo Faggioli, Marco Ferrante, Nicola Ferro, Raffaele Perego and Nicola Tonellotto",
-    "type": "ABS"
+    "type": "ABS",
+    "duration": 8
   },
   {
     "title": "Learning Passage Impacts for Inverted Indexes",
     "authors": "Antonio Mallia, Omar Khattab, Torsten Suel and Nicola Tonellotto",
-    "type": "ABS"
+    "type": "ABS",
+    "duration": 8
   },
   {
     "title": "Generalized Funnelling: Ensemble Learning and Heterogeneous Document Embeddings for Cross-Lingual Text Classification",
     "authors": "Andrea Pedrotti, Fabrizio Sebastiani and Alejandro Moreo",
-    "type": "ABS"
+    "type": "ABS",
+    "duration": 8
   },
   {
     "title": "Neural IR for Domain-Specific Tasks",
     "authors": "Óscar Espitia and Gabriella Pasi",
-    "type": "ABS"
+    "type": "ABS",
+    "duration": 8
   },
   {
     "title": "Adaptive Utterance Rewriting for Conversational Search",
     "authors": "Ida Mele, Cristina Ioana Muntean, Franco Maria Nardini, Raffaele Perego, Nicola Tonellotto and Ophir Frieder",
-    "type": "ABS"
+    "type": "ABS",
+    "duration": 8
   },
   {
     "title": "On Building Benchmark Datasets for Understudied Information Retrieval Tasks: the Case of Semantic Query Labeling",
     "authors": "Elias Bassani and Gabriella Pasi",
-    "type": "ABS"
+    "type": "ABS",
+    "duration": 8
   },
   {
     "title": "Do Hard Topics Exist? A Statistical Analysis",
     "authors": "Shane Culpepper, Guglielmo Faggioli, Nicola Ferro and Oren Kurland",
-    "type": "ABS"
+    "type": "ABS",
+    "duration": 8
   }
 ]

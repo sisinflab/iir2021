@@ -78,9 +78,13 @@ bodyClass: page-home
                 {% for presentation in site.data[talk.data] %}
                     <li>
                         <div>
-                        <span class="talk-title">{{ presentation.title }}</span>
-                        <span class="talk-authors">{{ presentation.authors }}</span></div>
-                        <span class="talk-type">{{ presentation.type }}</span>
+                            <span class="talk-title">{{ presentation.title }}</span>
+                            <span class="talk-authors">{{ presentation.authors }}</span>
+                        </div>
+                        <div>
+                            <span class="talk-type">{{ presentation.type }}</span>
+                            <span class="talk-duration font-weight-normal text-left"><i class="fas fa-stopwatch"></i> {{ presentation.duration }}min</span>
+                        </div>
                     </li>
                 {% endfor %}
             </ul>
