@@ -1,0 +1,52 @@
+ul.talks {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding: 0;
+    background: #ffffff;
+    border-radius: 5px;
+    padding: 6px;
+}
+ul.talks li {
+    //background: #fff6f8;
+    background: #ffe7ec;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px 10px 10px;
+    margin: 5px;
+}
+
+ul.talks li:hover {
+    //background: #fff6f8;
+    background: #ffdde4;
+}
+
+span.talk-type {
+    display: flex;
+    padding: 3px 6px;
+    justify-content: flex-start;
+    color: #ffffff;
+    font-size: 10px;
+    align-self: flex-start;
+    text-transform: uppercase;
+    // background: $black;
+    background: #E92030;
+    border-radius: 4px;
+    letter-spacing: 1px;
+    margin-left:40px;
+}
+
+span.talk-title {
+    color: $black;
+    display: flex;
+    font-weight: 700;
+}
+
+span.talk-authors {
+    color: $black;
+    text-transform: uppercase;
+    margin: 0;
+    font-size: 12px;
+    font-weight: 500;
+}

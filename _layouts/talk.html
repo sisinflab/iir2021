@@ -74,13 +74,16 @@ bodyClass: page-home
             </div>
 
             {% if site.data[talk.data] %}
+            <ul class="talks">
                 {% for presentation in site.data[talk.data] %}
-                    <span class="paper-type" title="{{ presentation.type }}">{{ presentation.type }}</span>
-                    <h2 class="font-weight-bold">{{ presentation.title }}</h2>
-                    <p class="mb-3 font-weight-light">
-                        {{ presentation.authors }}
-                    </p>
+                    <li>
+                        <div>
+                        <span class="talk-title">{{ presentation.title }}</span>
+                        <span class="talk-authors">{{ presentation.authors }}</span></div>
+                        <span class="talk-type">{{ presentation.type }}</span>
+                    </li>
                 {% endfor %}
+            </ul>
             {% else %}
 
             {{ content }}

@@ -4,25 +4,25 @@ main:
     weight: 2
   - name: "Call for Papers"
     url: "/cfp/"
-    weight: 3
+    weight: 7
   - name: "Organization"
     url: "/organization/"
-    weight: 4
+    weight: 5
   - name: "Program Committee"
     url: "/program-committee/"
-    weight: 5
+    weight: 6
   - name: "Program"
     url: "/program/"
-    weight: 6
+    weight: 3
   - name: "Proceedings"
     url: "/proceedings/"
-    weight: 7
+    weight: 8
   - name: "Sponsor"
     url: "/#sponsor"
-    weight: 8
+    weight: 9
   - name: "Attendance"
     url: "/attendance/"
-    weight: 9
+    weight: 4
   #- name: "Contact"
   #  url: "/contact/"
   #  weight: 6
