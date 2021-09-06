@@ -44,13 +44,13 @@ days:
           - name: Session 3
             time_start: '14:00'
             time_end: '15:30'
-          - name: Tutorial Nicola Tonellotto
+          - name: IR from Bag-of-words to BERT and Beyond with PyTerrier
             time_start: '15:30'
             time_end: '17:00'
           - name: Coffe Break
             time_start: '17:00'
             time_end: '17:30'
-          - name: Tutorial Lex - Schedl
+          - name: Psychology-informed Recommender Systems
             time_start: '17:30'
             time_end: '19:00'
   - name: Wednesday

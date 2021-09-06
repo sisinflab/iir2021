@@ -1,5 +1,5 @@
 ---
-name: Tutorial Lex - Schedl
+name: Psychology-informed Recommender Systems
 speakers:
   - Elisabeth Lex
   - Markus Schedl

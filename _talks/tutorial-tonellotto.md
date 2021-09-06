@@ -1,5 +1,5 @@
 ---
-name: Tutorial Nicola Tonellotto
+name: IR from Bag-of-words to BERT and Beyond with PyTerrier
 speakers:
   - Nicola Tonellotto
 categories:
