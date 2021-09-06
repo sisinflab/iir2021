@@ -2,11 +2,6 @@
 name: Omar Alonso
 first_name: Omar
 last_name: Alonso
-links:
-  - name: Profile
-    absolute_url: https://github.com
 ---
 
-Lorem ipsum dolor sit amet, mel tritani quaestio ne. Sed cu quot erat. Stet mutat moderatius ad vel. Ne eum quod expetendis, odio eros nominavi sed et, eu suscipit atomorum sit. Facete maluisset urbanitas in eos, idque expetendis et vis, et quo everti quaestio maiestatis.
-
-At elit omnium vel, utamur ponderum definitionem cu duo. Ex eam quot meliore. Modus admodum antiopam duo in, et esse incorrupte percipitur nec, ei facete utroque torquatos his. Ea vel moderatius cotidieque conclusionemque, noluisse menandri consetetur id pri.
+Omar Alonso is a senior engineering manager at Instacart working on knowledge graphs and large scale labeling. He teaches the IR course at Northeastern and he is the co-organizer of DESIRES, a new information retrieval conference with a focus on system implementation and experimental design. He holds a PhD from UC Davis
