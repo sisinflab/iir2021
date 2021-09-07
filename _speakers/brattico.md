@@ -3,7 +3,8 @@ name: Elvira Brattico
 first_name: Elvira
 last_name: Brattico
 ---
-Elvira Brattico, PhD, is a neuroscientist working since 2015 as Professor of Neuroscience,Music and Aesthetics at Aarhus University in Denmark and since 2019 as Professor of
+Elvira Brattico, PhD, is a neuroscientist working since 2015 as Professor of Neuroscience, Music and Aesthetics 
+at Aarhus University in Denmark and since 2019 as Professor of
 General Psychology at the University of Bari Aldo Moro. She is Principal Investigator and co-
 founder of the center of excellence “Center for Music in the Brain”, affiliated both with
 Aarhus University and the Royal Academy of Music Aarhus/Aalborg in Denmark. Since 2009
