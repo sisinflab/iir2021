@@ -1,5 +1,9 @@
 {%- if talk.hide -%}
   {{ talk.name }}
 {%- else -%}
-  <a class="text-reset" href="{{ talk.url | relative_url}}">{{ talk.name }}</a>
+  {%- if talk.name contains 'Session' -%}
+<a class="text-reset" href="{{ talk.url | relative_url}}">{{ talk.name }} <em class="font-weight-lighter">(click for details)</em></a>
+  {%- else -%}
+    <a class="text-reset" href="{{ talk.url | relative_url}}">{{ talk.name }}</a>
+  {%- endif -%}
 {%- endif -%}
