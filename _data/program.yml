@@ -71,6 +71,3 @@ days:
           - name: Closing and Award Ceremony
             time_start: '12:45'
             time_end: '13:15'
-          - name: Lunch
-            time_start: '13:15'
-            time_end: '14:00'
