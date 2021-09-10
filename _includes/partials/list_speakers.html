@@ -5,7 +5,9 @@
   {%- else -%}
     {%- assign speaker_short = speaker.first_name | slice: 0 | append : '. ' | append: speaker.last_name -%}
   {%- endif -%}
-
+  {%- if talk.name contains 'Session' -%}
+    {%- assign speaker_short = speaker_short | prepend: 'Session Chair ' -%}
+  {%- endif -%}
   {%- if speaker.hide -%}
     {{ speaker_short }}
   {%- else -%}
