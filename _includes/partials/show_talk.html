@@ -1,8 +1,12 @@
 {%- if talk.hide -%}
-  {{ talk.name }}
+  {%- if talk.name contains 'Lunch' or talk.name contains 'Coffe' -%}
+    {{ talk.name }} <br> <em class="font-weight-lighter">Sponsored by</em> <span class="font-weight-bold">{{sponsor}}</span>
+  {%- else -%}
+    {{ talk.name }}
+  {%- endif -%}
 {%- else -%}
   {%- if talk.name contains 'Session' -%}
-<a class="text-reset" href="{{ talk.url | relative_url}}">{{ talk.name }} <em class="font-weight-lighter">(click for details)</em></a>
+    <a class="text-reset" href="{{ talk.url | relative_url}}">{{ talk.name }} <em class="font-weight-lighter">(click for details)</em></a>
   {%- else -%}
     <a class="text-reset" href="{{ talk.url | relative_url}}">{{ talk.name }}</a>
   {%- endif -%}

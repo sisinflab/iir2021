@@ -134,7 +134,7 @@ bodyClass: page-home
                 {%- assign active_talk = false -%}
                 {%- for t in r.talks -%}
                   {%- assign talk = site.talks | where: 'name', t.name | first -%}
-
+                  {%- assign sponsor = t.sponsor -%}
                   {%- include partials/get_talk_time.html -%}
 
                   {%- assign d_start_hour = current_day | minus: talk_start_day | times: 24 | plus: current_hour | minus: talk_start_hour -%}

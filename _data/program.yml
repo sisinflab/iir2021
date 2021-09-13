@@ -15,6 +15,7 @@ days:
             time_start: '16:00'
             time_end: '16:30'
             hide: true
+            sponsor: Auriga
           - name: Session 1
             time_start: '16:30'
             time_end: '17:45'
@@ -22,6 +23,7 @@ days:
             time_start: '18:00'
             time_end: '20:00'
             hide: true
+            sponsor: Fincons
   - name: Tuesday
     abbr: Tu
     date: 2021-09-14
@@ -35,12 +37,14 @@ days:
             time_start: '10:30'
             time_end: '11:00'
             hide: true
+            sponsor: Fincons
           - name: Session 2
             time_start: '11:00'
             time_end: '13:00'
           - name: Lunch
             time_start: '13:00'
             time_end: '14:00'
+            sponsor: Auriga
           - name: Session 3
             time_start: '14:00'
             time_end: '15:30'
@@ -50,6 +54,7 @@ days:
           - name: Coffe Break
             time_start: '17:00'
             time_end: '17:30'
+            sponsor: Exprivia
           - name: Psychology-informed Recommender Systems
             time_start: '17:30'
             time_end: '19:00'
@@ -65,6 +70,7 @@ days:
           - name: Coffe Break
             time_start: '10:30'
             time_end: '11:00'
+            sponsor: Exprivia
           - name: Session 4
             time_start: '11:00'
             time_end: '12:45'
