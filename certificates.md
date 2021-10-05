@@ -7,8 +7,6 @@ bodyClass: page-about
 
 Use the email address you used to register to __IIR 2021__ to download your attendance certificate!
 
-<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
-
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
 <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
@@ -104,7 +102,7 @@ function doneTyping() {
     $('#status').html('');
     manageTyping();
   } else {
-    var url = 'http://sisinflab.poliba.it/certificates_iir/iir2021_certificate_' + $('#email').val() + '.pdf'
+    var url = 'https://sisinflab.poliba.it/certificates_iir/iir2021_certificate_' + $('#email').val() + '.pdf'
     UrlExists(url);
     console.clear()
     $('#status').html('');
