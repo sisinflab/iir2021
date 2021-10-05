@@ -12,17 +12,15 @@ Use the email address you used to register to __IIR 2021__ to download your atte
 <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
 
 <div style="display:flex;flex-wrap:wrap;align-items:center">
-<div><input type="text" id="email" name="email" style="padding: 12px 20px 12px 50px;
+<div><input type="email" id="email" name="email" style="padding: 12px 20px 12px 50px;
   width:300px;
   margin: 8px 0;
   display: inline-block;
   border: 1px solid #ccc;
   border-radius: 4px;
-  box-sizing: border-box;" placeholder="Insert your email here...">
-  <label style="position: absolute;
-  color:gray;
-  left: 30px;
-  top: 3.9em;" for="email"><span class="material-icons">email</span></label></div>
+  box-sizing: border-box;
+  background: url(../images/email_black_24dp.svg) no-repeat scroll 15px 8px;"
+  placeholder="Insert your email here...">
 <div style="margin-left:10px" id="status"></div>
 <div style="flex-basis:100%;height: 0;"></div>
 <div style="margin-top:20px" id="message"></div>
