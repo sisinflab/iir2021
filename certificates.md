@@ -25,14 +25,34 @@ Use the email address you used to register to __IIR 2021__ to download your atte
 </div>
 
 <script>
+function createCORSRequest(method, url) {
+  var xhr = new XMLHttpRequest();
+  if ("withCredentials" in xhr) {
+    // XHR for Chrome/Firefox/Opera/Safari.
+    xhr.open(method, url, true);
+  } else if (typeof XDomainRequest != "undefined") {
+    // XDomainRequest for IE.
+    xhr = new XDomainRequest();
+    xhr.open(method, url);
+  } else {
+    // CORS not supported.
+    xhr = null;
+  }
+  return xhr;
+}
 function UrlExists(url) {
-    var http = new XMLHttpRequest();
-    http.open('GET', url, false);
-    http.send();
-    if (http.status != 404)
-        return true;
-    else
-        return false;
+  var xhr = createCORSRequest('HEAD', url);
+  if (!xhr) {
+    console.log('CORS not supported');
+  }
+  var response;
+  xhr.onload = function() {
+    $('#message').html('<span style="vertical-align: middle;" class="material-icons">check_circle</span> <a href="#" onclick="location.href=`'+url+'`">Download your attendance certificate</a>');
+  };
+  xhr.onerror = function() {
+    $('#message').html('<span style="vertical-align: middle;" class="material-icons">warning</span> Certificate not found');
+  };
+  xhr.send();
 }
 //setup before functions
 var typingTimer;                //timer identifier
@@ -47,7 +67,7 @@ $input.on('keyup', function () {
 
 //on keydown, clear the countdown
 var manageTyping = function() {
-  $input.one('keydown', function () {
+  $input.one('input', function () {
   $('#message').html('');
   $('#status').html('<img style="margin:0" src="../images/typing_small.gif" />');
   clearTimeout(typingTimer);
@@ -62,12 +82,8 @@ function doneTyping () {
     $('#status').html('');
     manageTyping();
   } else {
-  var url = 'https://clusterchoral.it/certificates/' + $('#email').val() + '.pdf'
-  if (UrlExists(url)) {
-    $('#message').html('<span style="vertical-align: middle;" class="material-icons">check_circle</span> <a href="#" onclick="location.href=`'+url+'`">Download your attendance certificate</a>');
-  } else {
-    $('#message').html('<span style="vertical-align: middle;" class="material-icons">warning</span> Certificate not found');
-  }
+  var url = 'https://www.clusterchoral.it/certificates/' + $('#email').val() + '.pdf'
+  UrlExists(url);
   $('#status').html('');
   manageTyping();
 }
