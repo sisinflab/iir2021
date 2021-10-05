@@ -5,7 +5,7 @@ layout: page
 bodyClass: page-about
 ---
 
-prova
+Use the email address you used to register to __IIR 2021__ to download your attendance certificate!
 
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
@@ -18,7 +18,7 @@ prova
   display: inline-block;
   border: 1px solid #ccc;
   border-radius: 4px;
-  box-sizing: border-box;" placeholder="Email used for IIR registration"></div>
+  box-sizing: border-box;" placeholder="Insert your email here..."></div>
 <div style="margin-left:10px" id="status"></div>
 <div style="flex-basis:100%;height: 0;"></div>
 <div style="margin-top:20px" id="message"></div>
@@ -48,6 +48,7 @@ $input.on('keyup', function () {
 //on keydown, clear the countdown
 var manageTyping = function() {
   $input.one('keydown', function () {
+  $('#message').html('');
   $('#status').html('<img style="margin:0" src="../images/typing_small.gif" />');
   clearTimeout(typingTimer);
 })};
@@ -56,13 +57,19 @@ $(function(){ manageTyping(); });
 
 //user is "finished typing," do something
 function doneTyping () {
-  var url = 'https://sciueferrara.altervista.org/iir2021/certificates/' + $('#email').val() + '.pdf'
-  if (UrlExists(url)) {
-    $('#message').html('<span class="material-icons">check_circle</span> <a href="#" onclick="location.href=url">Download your attendance certificate</a>');
+  if ($('#email').val() == '') {
+    $('#message').html('');
+    $('#status').html('');
+    manageTyping();
   } else {
-    $('#message').html('<span class="material-icons-outlined">warning</span> Certificate not found');
+  var url = 'http://clusterchoral.it/certificates/' + $('#email').val() + '.pdf'
+  if (UrlExists(url)) {
+    $('#message').html('<span style="vertical-align: middle;" class="material-icons">check_circle</span> <a href="#" onclick="location.href=`'+url+'`">Download your attendance certificate</a>');
+  } else {
+    $('#message').html('<span style="vertical-align: middle;" class="material-icons">warning</span> Certificate not found');
   }
   $('#status').html('');
   manageTyping();
+}
 }
 </script>
