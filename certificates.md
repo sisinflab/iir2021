@@ -62,7 +62,7 @@ function doneTyping () {
     $('#status').html('');
     manageTyping();
   } else {
-  var url = 'http://clusterchoral.it/certificates/' + $('#email').val() + '.pdf'
+  var url = 'https://clusterchoral.it/certificates/' + $('#email').val() + '.pdf'
   if (UrlExists(url)) {
     $('#message').html('<span style="vertical-align: middle;" class="material-icons">check_circle</span> <a href="#" onclick="location.href=`'+url+'`">Download your attendance certificate</a>');
   } else {
