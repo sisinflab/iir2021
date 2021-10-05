@@ -40,52 +40,146 @@ function createCORSRequest(method, url) {
   }
   return xhr;
 }
+
 function UrlExists(url) {
-  var xhr = createCORSRequest('HEAD', url);
-  if (!xhr) {
-    console.log('CORS not supported');
-  }
-  var response;
-  xhr.onload = function() {
-    $('#message').html('<span style="vertical-align: middle;" class="material-icons">check_circle</span> <a href="#" onclick="location.href=`'+url+'`">Download your attendance certificate</a>');
-  };
-  xhr.onerror = function() {
-    $('#message').html('<span style="vertical-align: middle;" class="material-icons">warning</span> Certificate not found');
-  };
-  xhr.send();
+  try {
+    var xhr = createCORSRequest('HEAD', url);
+    if (!xhr) {
+      console.log('CORS not supported');
+    }
+    xhr.onreadystatechange = function() {
+      if (this.readyState !== 4) {
+        return;
+      };
+      if (this.status !== 200) {
+        $('#message').html('<span style="vertical-align: middle;" class="material-icons">warning</span> Certificate not found');
+      } else {
+        $('#message').html('<span style="vertical-align: middle;" class="material-icons">check_circle</span> <a href="#" onclick="location.href=`' + url + '`">Download your attendance certificate</a>');
+      }
+    };
+    xhr.onerror = function() {
+      $('#message').html('<span style="vertical-align: middle;" class="material-icons">warning</span> Certificate not found');
+    };
+  } catch (error) {}
+  try {
+    xhr.send();
+  } catch (error) {}
+  console.clear()
 }
 //setup before functions
-var typingTimer;                //timer identifier
-var doneTypingInterval = 1000;  //time in ms, 5 second for example
+var typingTimer; //timer identifier
+var doneTypingInterval = 1000; //time in ms, 5 second for example
 var $input = $('#email');
 
 //on keyup, start the countdown
-$input.on('keyup', function () {
+$input.on('keyup', function() {
   clearTimeout(typingTimer);
   typingTimer = setTimeout(doneTyping, doneTypingInterval);
 });
 
 //on keydown, clear the countdown
 var manageTyping = function() {
-  $input.one('input', function () {
-  $('#message').html('');
-  $('#status').html('<img style="margin:0" src="../images/typing_small.gif" />');
-  clearTimeout(typingTimer);
-})};
+  $input.one('input', function() {
+    $('#message').html('');
+    $('#status').html('<img style="margin:0" src="../images/typing_small.gif" />');
+    clearTimeout(typingTimer);
+  })
+};
 
-$(function(){ manageTyping(); });
+$(function() {
+  manageTyping();
+});
 
 //user is "finished typing," do something
-function doneTyping () {
+function doneTyping() {
   if ($('#email').val() == '') {
     $('#message').html('');
     $('#status').html('');
     manageTyping();
   } else {
-  var url = 'https://www.clusterchoral.it/certificates/' + $('#email').val() + '.pdf'
-  UrlExists(url);
-  $('#status').html('');
-  manageTyping();
+    var url = 'https://www.clusterchoral.it/certificates/' + $('#email').val() + '.pdf'
+function createCORSRequest(method, url) {
+  var xhr = new XMLHttpRequest();
+  if ("withCredentials" in xhr) {
+    // XHR for Chrome/Firefox/Opera/Safari.
+    xhr.open(method, url, true);
+  } else if (typeof XDomainRequest != "undefined") {
+    // XDomainRequest for IE.
+    xhr = new XDomainRequest();
+    xhr.open(method, url);
+  } else {
+    // CORS not supported.
+    xhr = null;
+  }
+  return xhr;
 }
+
+function UrlExists(url) {
+  try {
+    var xhr = createCORSRequest('HEAD', url);
+    if (!xhr) {
+      console.log('CORS not supported');
+    }
+    xhr.onreadystatechange = function() {
+      if (this.readyState !== 4) {
+        return;
+      };
+      if (this.status !== 200) {
+        $('#message').html('<span style="vertical-align: middle;" class="material-icons">warning</span> Certificate not found');
+      } else {
+        $('#message').html('<span style="vertical-align: middle;" class="material-icons">check_circle</span> <a href="#" onclick="location.href=`' + url + '`">Download your attendance certificate</a>');
+      }
+    };
+    xhr.onerror = function() {
+      $('#message').html('<span style="vertical-align: middle;" class="material-icons">warning</span> Certificate not found');
+    };
+  } catch (error) {}
+  try {
+    xhr.send();
+  } catch (error) {}
+  console.clear()
+}
+//setup before functions
+var typingTimer; //timer identifier
+var doneTypingInterval = 1000; //time in ms, 5 second for example
+var $input = $('#email');
+
+//on keyup, start the countdown
+$input.on('keyup', function() {
+  clearTimeout(typingTimer);
+  typingTimer = setTimeout(doneTyping, doneTypingInterval);
+});
+
+//on keydown, clear the countdown
+var manageTyping = function() {
+  $input.one('input', function() {
+    $('#message').html('');
+    $('#status').html('<img style="margin:0" src="../images/typing_small.gif" />');
+    clearTimeout(typingTimer);
+  })
+};
+
+$(function() {
+  manageTyping();
+});
+
+//user is "finished typing," do something
+function doneTyping() {
+  if ($('#email').val() == '') {
+    $('#message').html('');
+    $('#status').html('');
+    manageTyping();
+  } else {
+    var url = 'https://www.clusterchoral.it/certificates/' + $('#email').val() + '.pdf'
+    UrlExists(url);
+    console.clear()
+    $('#status').html('');
+    manageTyping();
+  }
+}    UrlExists(url);
+    console.clear()
+    $('#status').html('');
+    manageTyping();
+  }
 }
 </script>
