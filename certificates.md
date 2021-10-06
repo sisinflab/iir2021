@@ -56,7 +56,7 @@ function UrlExists(url) {
       if (this.status !== 200) {
         $('#message').html('<span style="vertical-align: middle;" class="material-icons">warning</span> Certificate not found');
       } else {
-        $('#message').html('<span style="vertical-align: middle;" class="material-icons">check_circle</span> <a href="' + url + '" download="iir2021_certificate.pdf">Download your attendance certificate</a>');
+        $('#message').html('<span style="vertical-align: middle;" class="material-icons">check_circle</span> <a href="' + url + '" download="iir2021_certificate.pdf" target="_blank">Download your attendance certificate</a>');
       }
     };
     xhr.onerror = function() {
