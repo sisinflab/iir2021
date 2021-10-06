@@ -21,7 +21,7 @@ Use the email address you used to register to __IIR 2021__ to download your atte
   box-sizing: border-box;
   background: url(../images/email_black_24dp.svg) no-repeat scroll 15px 8px;"
   placeholder="Insert your email here...">
-<div style="margin-left:10px" id="status"></div>
+<!---<div style="margin-left:10px" id="status"></div>-->
 <div style="flex-basis:100%;height: 0;"></div>
 <div style="margin-top:20px" id="message"></div>
 </div>
@@ -83,12 +83,13 @@ $input.on('keyup', function() {
 //on keydown, clear the countdown
 var manageTyping = function() {
   $input.one('input', function() {
-    $('#message').html('');
-    $('#status').html('<img style="margin:0" src="../images/typing_small.gif" />');
+    // $('#message').html('');
+    $('#message').html('<img style="margin:0;height:20px" src="../images/loading.gif" />');
     clearTimeout(typingTimer);
   })
 };
 
+//opening the page, we start the typing managament
 $(function() {
   manageTyping();
 });
@@ -97,13 +98,11 @@ $(function() {
 function doneTyping() {
   if ($('#email').val() == '') {
     $('#message').html('');
-    $('#status').html('');
     manageTyping();
   } else {
     var url = 'https://sisinflab.poliba.it/certificates_iir/iir2021_certificate_' + $('#email').val() + '.pdf'
     UrlExists(url);
     console.clear()
-    $('#status').html('');
     manageTyping();
   }
 }
