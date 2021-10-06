@@ -20,7 +20,7 @@ Use the email address you used to register to __IIR 2021__ to download your atte
   border-radius: 4px;
   box-sizing: border-box;
   background: url(../images/email_black_24dp.svg) no-repeat scroll 15px 8px;"
-  placeholder="Insert your email here...">
+  placeholder="Type your email here...">
 <!---<div style="margin-left:10px" id="status"></div>-->
 <div style="flex-basis:100%;height: 0;"></div>
 <div style="margin-top:20px" id="message"></div>
